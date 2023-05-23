@@ -1,0 +1,41 @@
+{
+    "$schema": "https://purl.org/csv-cubed/qube-config/v1",
+    "title": "D7: Species supporting ecosystem functions",
+    "creator": "https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs",
+    "summary": "Percentage change in the distribution of pollinators in the UK, 1980 to 2019",
+    "description": "Part of The Outcome Indicator Framework, a comprehensive set of indicators describing environmental change that relates to the 10 goals within the 25 Year Environment Plan. The framework contains 66 indicators, arranged into 10 broad themes. The indicators are extensive; they cover natural capital assets (for example, land, freshwater, air and seas) and together they show the condition of these assets, the pressures acting upon them and the provision of services or benefits they provide.",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "keywords": [
+        "species",
+        "wildlife",
+        "percentage-change",
+        "species-ecosystem",
+        "distribution-of-pollinators"
+    ],
+    "publisher": "https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs",
+    "themes": [
+        "https://www.ons.gov.uk/economy/environmentalaccounts"
+    ],
+    "dataset_issued": "2023-05-22",
+    "columns": {
+        "Year": {
+            "from_template": "year"
+        },
+        "Trendline": {
+            "type": "dimension",
+            "cell_uri_template": "http://gss-data.org.uk/def/climate-change/concept/defra-trendline/{trendline}"
+        },
+        "Observation": {
+            "type": "observations",
+            "data_type": "float",
+            "measure": {
+                "label": "Distribution of Pollinators",
+                "definition_uri": "http://gss-data.org.uk/def/climate-change/measure/distribution-of-pollinators"
+            },
+            "unit": {
+                "label": "Percentage Change",
+                "definition_uri": "http://gss-data.org.uk/def/climate-change/concept/measurement-unit/percentage-change"
+            }
+        }
+    }
+}
