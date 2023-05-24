@@ -125,6 +125,237 @@
     ],
     "rdfs:seeAlso": [
         {
+            "@id": "d7-species-supporting-ecosystem-functions.csv#measure/distribution-of-pollinators",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#MeasureProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+                {
+                    "@id": "http://gss-data.org.uk/def/climate-change/measure/distribution-of-pollinators"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Distribution of Pollinators"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#float"
+                }
+            ]
+        },
+        {
+            "@id": "d7-species-supporting-ecosystem-functions.csv#structure",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DataStructureDefinition",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#component": [
+                {
+                    "@id": "d7-species-supporting-ecosystem-functions.csv#component/year"
+                },
+                {
+                    "@id": "d7-species-supporting-ecosystem-functions.csv#component/measure-type"
+                },
+                {
+                    "@id": "d7-species-supporting-ecosystem-functions.csv#component/unit"
+                },
+                {
+                    "@id": "d7-species-supporting-ecosystem-functions.csv#component/trendline"
+                },
+                {
+                    "@id": "d7-species-supporting-ecosystem-functions.csv#component/distribution-of-pollinators"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "d7-species-supporting-ecosystem-functions.csv#measure/distribution-of-pollinators"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "d7-species-supporting-ecosystem-functions.csv#dimension/year"
+                },
+                {
+                    "@id": "d7-species-supporting-ecosystem-functions.csv#dimension/trendline"
+                }
+            ],
+            "http://purl.org/linked-data/cube#sliceKey": [
+                {
+                    "@id": "d7-species-supporting-ecosystem-functions.csv#slice/cross-measures"
+                }
+            ]
+        },
+        {
+            "@id": "d7-species-supporting-ecosystem-functions.csv#component/distribution-of-pollinators",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "d7-species-supporting-ecosystem-functions.csv#measure/distribution-of-pollinators"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "d7-species-supporting-ecosystem-functions.csv#measure/distribution-of-pollinators"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 5
+                }
+            ]
+        },
+        {
+            "@id": "d7-species-supporting-ecosystem-functions.csv#dimension/year",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "year.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Year"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "d7-species-supporting-ecosystem-functions.csv#class/year"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
+                }
+            ]
+        },
+        {
+            "@id": "d7-species-supporting-ecosystem-functions.csv#csvcubed-build-activity",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/prov#Activity"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
+                }
+            ]
+        },
+        {
+            "@id": "d7-species-supporting-ecosystem-functions.csv#slice/cross-measures",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#SliceKey",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "d7-species-supporting-ecosystem-functions.csv#dimension/year"
+                },
+                {
+                    "@id": "d7-species-supporting-ecosystem-functions.csv#dimension/trendline"
+                }
+            ]
+        },
+        {
+            "@id": "d7-species-supporting-ecosystem-functions.csv#component/measure-type",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 3
+                }
+            ]
+        },
+        {
+            "@id": "d7-species-supporting-ecosystem-functions.csv#dimension/trendline",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "trendline.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Trendline"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "d7-species-supporting-ecosystem-functions.csv#class/trendline"
+                }
+            ]
+        },
+        {
+            "@id": "d7-species-supporting-ecosystem-functions.csv#component/unit",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": true
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 4
+                }
+            ]
+        },
+        {
             "@id": "d7-species-supporting-ecosystem-functions.csv#class/trendline",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
@@ -132,35 +363,42 @@
             ]
         },
         {
-            "@id": "d7-species-supporting-ecosystem-functions.csv#component/trendline",
+            "@id": "d7-species-supporting-ecosystem-functions.csv#component/year",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "d7-species-supporting-ecosystem-functions.csv#dimension/trendline"
+                    "@id": "d7-species-supporting-ecosystem-functions.csv#dimension/year"
                 }
             ],
             "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "d7-species-supporting-ecosystem-functions.csv#dimension/trendline"
+                    "@id": "d7-species-supporting-ecosystem-functions.csv#dimension/year"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 2
+                    "@value": 1
                 }
+            ]
+        },
+        {
+            "@id": "d7-species-supporting-ecosystem-functions.csv#class/year",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
             ]
         },
         {
             "@id": "d7-species-supporting-ecosystem-functions.csv#dataset",
             "@type": [
-                "http://purl.org/linked-data/cube#Attachable",
-                "http://www.w3.org/ns/dcat#Resource",
                 "http://www.w3.org/ns/dcat#Dataset",
+                "http://purl.org/linked-data/cube#Attachable",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/dcat#Resource",
                 "http://purl.org/linked-data/cube#DataSet"
             ],
             "http://purl.org/dc/terms/creator": [
@@ -227,15 +465,11 @@
             "http://www.w3.org/ns/dcat#keyword": [
                 {
                     "@language": "en",
-                    "@value": "distribution-of-pollinators"
+                    "@value": "wildlife"
                 },
                 {
                     "@language": "en",
-                    "@value": "percentage-change"
-                },
-                {
-                    "@language": "en",
-                    "@value": "species-ecosystem"
+                    "@value": "ecosystem-functions"
                 },
                 {
                     "@language": "en",
@@ -243,7 +477,11 @@
                 },
                 {
                     "@language": "en",
-                    "@value": "wildlife"
+                    "@value": "percentage-change"
+                },
+                {
+                    "@language": "en",
+                    "@value": "distribution-of-pollinators"
                 }
             ],
             "http://www.w3.org/ns/dcat#theme": [
@@ -258,263 +496,25 @@
             ]
         },
         {
-            "@id": "d7-species-supporting-ecosystem-functions.csv#measure/distribution-of-pollinators",
-            "@type": [
-                "http://purl.org/linked-data/cube#MeasureProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-                {
-                    "@id": "http://gss-data.org.uk/def/climate-change/measure/distribution-of-pollinators"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Distribution of Pollinators"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#float"
-                }
-            ]
-        },
-        {
-            "@id": "d7-species-supporting-ecosystem-functions.csv#dimension/trendline",
-            "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "trendline.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Trendline"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "d7-species-supporting-ecosystem-functions.csv#class/trendline"
-                }
-            ]
-        },
-        {
-            "@id": "d7-species-supporting-ecosystem-functions.csv#class/year",
+            "@id": "d7-species-supporting-ecosystem-functions.csv#component/trendline",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
-            "@id": "d7-species-supporting-ecosystem-functions.csv#csvcubed-build-activity",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/ns/prov#Activity"
-            ],
-            "http://www.w3.org/ns/prov#used": [
-                {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
-                }
-            ]
-        },
-        {
-            "@id": "d7-species-supporting-ecosystem-functions.csv#component/measure-type",
-            "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 3
-                }
-            ]
-        },
-        {
-            "@id": "d7-species-supporting-ecosystem-functions.csv#component/distribution-of-pollinators",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "d7-species-supporting-ecosystem-functions.csv#measure/distribution-of-pollinators"
-                }
-            ],
-            "http://purl.org/linked-data/cube#measure": [
-                {
-                    "@id": "d7-species-supporting-ecosystem-functions.csv#measure/distribution-of-pollinators"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 5
-                }
-            ]
-        },
-        {
-            "@id": "d7-species-supporting-ecosystem-functions.csv#slice/cross-measures",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#SliceKey",
                 "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
                     "@id": "d7-species-supporting-ecosystem-functions.csv#dimension/trendline"
-                },
-                {
-                    "@id": "d7-species-supporting-ecosystem-functions.csv#dimension/year"
-                }
-            ]
-        },
-        {
-            "@id": "d7-species-supporting-ecosystem-functions.csv#structure",
-            "@type": [
-                "http://purl.org/linked-data/cube#DataStructureDefinition",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#component": [
-                {
-                    "@id": "d7-species-supporting-ecosystem-functions.csv#component/trendline"
-                },
-                {
-                    "@id": "d7-species-supporting-ecosystem-functions.csv#component/measure-type"
-                },
-                {
-                    "@id": "d7-species-supporting-ecosystem-functions.csv#component/unit"
-                },
-                {
-                    "@id": "d7-species-supporting-ecosystem-functions.csv#component/year"
-                },
-                {
-                    "@id": "d7-species-supporting-ecosystem-functions.csv#component/distribution-of-pollinators"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "d7-species-supporting-ecosystem-functions.csv#measure/distribution-of-pollinators"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                },
-                {
-                    "@id": "d7-species-supporting-ecosystem-functions.csv#dimension/trendline"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
-                {
-                    "@id": "d7-species-supporting-ecosystem-functions.csv#dimension/year"
-                }
-            ],
-            "http://purl.org/linked-data/cube#sliceKey": [
-                {
-                    "@id": "d7-species-supporting-ecosystem-functions.csv#slice/cross-measures"
-                }
-            ]
-        },
-        {
-            "@id": "d7-species-supporting-ecosystem-functions.csv#component/year",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "d7-species-supporting-ecosystem-functions.csv#dimension/year"
                 }
             ],
             "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "d7-species-supporting-ecosystem-functions.csv#dimension/year"
+                    "@id": "d7-species-supporting-ecosystem-functions.csv#dimension/trendline"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 1
-                }
-            ]
-        },
-        {
-            "@id": "d7-species-supporting-ecosystem-functions.csv#component/unit",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": true
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 4
-                }
-            ]
-        },
-        {
-            "@id": "d7-species-supporting-ecosystem-functions.csv#dimension/year",
-            "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "year.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Year"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "d7-species-supporting-ecosystem-functions.csv#class/year"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
+                    "@value": 2
                 }
             ]
         },
@@ -555,9 +555,9 @@
         {
             "@id": "d7-species-supporting-ecosystem-functions.csv#unit/percentage-change",
             "@type": [
-                "http://qudt.org/schema/qudt/Unit",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"
+                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
+                "http://qudt.org/schema/qudt/Unit"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
