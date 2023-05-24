@@ -22,8 +22,7 @@
             "from_template": "year"
         },
         "Trendline": {
-            "type": "dimension",
-            "cell_uri_template": "http://gss-data.org.uk/def/climate-change/concept/defra-trendline/{trendline}"
+            "type": "dimension"
         },
         "Observation": {
             "type": "observations",
