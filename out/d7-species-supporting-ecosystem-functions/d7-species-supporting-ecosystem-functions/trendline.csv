@@ -1,0 +1,4 @@
+Uri Identifier,Label,Notation,Parent Uri Identifier,Sort Priority,Description
+90-credible-interval-lower-bound,90% credible interval lower bound,90-credible-interval-lower-bound,,0,
+90-credible-interval-upper-bound,90% credible interval upper bound,90-credible-interval-upper-bound,,1,
+unsmoothed-index,Unsmoothed index,unsmoothed-index,,2,
