@@ -1,6 +1,6 @@
 {
     "$schema": "https://purl.org/csv-cubed/qube-config/v1",
-    "title": "D7: Species supporting ecosystem functions",
+    "title": "Species supporting ecosystem functions (updated)",
     "creator": "https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs",
     "summary": "Percentage change in the distribution of pollinators in the UK, 1980 to 2019",
     "description": "Part of The Outcome Indicator Framework, a comprehensive set of indicators describing environmental change that relates to the 10 goals within the 25 Year Environment Plan. The framework contains 66 indicators, arranged into 10 broad themes. The indicators are extensive; they cover natural capital assets (for example, land, freshwater, air and seas) and together they show the condition of these assets, the pressures acting upon them and the provision of services or benefits they provide.",
