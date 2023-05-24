@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: Trendline
           - Label: Trendline
-          - Issued: 2023-05-24T12:28:53.485254
-          - Modified: 2023-05-24T12:28:53.485254
+          - Issued: 2023-05-24T19:57:34.728580
+          - Modified: 2023-05-24T19:57:34.728580
           - License: None
           - Creator: None
           - Publisher: None
