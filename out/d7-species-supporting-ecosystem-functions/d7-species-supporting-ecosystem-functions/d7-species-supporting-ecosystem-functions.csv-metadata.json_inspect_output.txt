@@ -1,0 +1,77 @@
+
+- This file is a data cube.
+
+
+        - The data cube has the following catalog metadata:
+          - Title: D7: Species supporting ecosystem functions
+          - Label: D7: Species supporting ecosystem functions
+          - Issued: 2023-05-22T00:00:00
+          - Modified: 2023-05-22T00:00:00
+          - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+          - Creator: https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs
+          - Publisher: https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs
+          - Landing Pages: None
+          - Themes: 
+		-- https://www.ons.gov.uk/economy/environmentalaccounts
+          - Keywords: 
+		-- percentage-change
+		-- wildlife
+		-- species
+		-- distribution-of-pollinators
+		-- species-ecosystem
+          - Contact Point: None
+          - Identifier: D7: Species supporting ecosystem functions
+          - Comment: Percentage change in the distribution of pollinators in the UK, 1980 to 2019
+          - Description: Part of The Outcome Indicator Framework, a comprehensive set of indicators describing environmental change that relates to the 10 goals within the 25 Year Environment Plan. The framework contains 66 indicators, arranged into 10 broad themes. The indicators are extensive; they cover natural capital assets (for example, land, freshwater, air and seas) and together they show the condition of these assets, the pressures acting upon them and the provision of services or benefits they provide.
+        
+
+ - The data cube has the following column component information: 
+    - Dataset Label: D7: Species supporting ecosystem functions
+    - Columns: 
+          Title         Type  Required                                                                      Property URL Observations Column Titles
+           Year    Dimension      True                      d7-species-supporting-ecosystem-functions.csv#dimension/year                Observation
+      Trendline    Dimension      True                 d7-species-supporting-ecosystem-functions.csv#dimension/trendline                Observation
+    Observation Observations      True d7-species-supporting-ecosystem-functions.csv#measure/distribution-of-pollinators                Observation
+    - Columns where suppress output is true: None
+
+- The data cube has the following code list information:
+        - Number of Code Lists: 2
+        - Code Lists:
+              Code List Code List Label Columns Used In
+trendline.csv#code-list       Trendline       Trendline
+     year.csv#code-list            Year            Year
+
+- The data cube has the following dataset information:
+        - Number of Rows: 120
+        - Number of Duplicates: 0
+        - First 10 Rows: 
+ Year        Trendline  Observation
+ 1980 unsmoothed-index       100.00
+ 1981 unsmoothed-index        99.56
+ 1982 unsmoothed-index        99.54
+ 1983 unsmoothed-index        99.84
+ 1984 unsmoothed-index       100.74
+ 1985 unsmoothed-index       101.97
+ 1986 unsmoothed-index       103.16
+ 1987 unsmoothed-index       104.12
+ 1988 unsmoothed-index       103.27
+ 1989 unsmoothed-index       101.55
+        - Last 10 Rows: 
+ Year                        Trendline  Observation
+ 2010 90-credible-interval-upper-bound        91.11
+ 2011 90-credible-interval-upper-bound        89.03
+ 2012 90-credible-interval-upper-bound        87.29
+ 2013 90-credible-interval-upper-bound        85.88
+ 2014 90-credible-interval-upper-bound        84.65
+ 2015 90-credible-interval-upper-bound        83.81
+ 2016 90-credible-interval-upper-bound        82.88
+ 2017 90-credible-interval-upper-bound        81.90
+ 2018 90-credible-interval-upper-bound        81.03
+ 2019 90-credible-interval-upper-bound        80.67
+        
+
+- The data cube has the following value counts:
+        - Value counts broken-down by measure and unit (of measure):
+                    Measure              Unit  Count
+Distribution of Pollinators Percentage Change    120
+        

@@ -1,0 +1,40 @@
+
+- This file is a code list.
+
+
+        - The code list has the following catalog metadata:
+          - Title: Trendline
+          - Label: Trendline
+          - Issued: 2023-05-24T11:50:28.365894
+          - Modified: 2023-05-24T11:50:28.365894
+          - License: None
+          - Creator: None
+          - Publisher: None
+          - Landing Pages: None
+          - Themes: None
+          - Keywords: None
+          - Contact Point: None
+          - Identifier: Trendline
+          - Comment: None
+          - Description: None
+        
+
+- The code list has the following dataset information:
+        - Number of Concepts: 3
+        - Number of Duplicates: 0
+        - Concepts: 
+                  Uri Identifier                             Label                         Notation  Parent Uri Identifier  Sort Priority  Description
+90-credible-interval-lower-bound 90% credible interval lower bound 90-credible-interval-lower-bound                    NaN              0          NaN
+90-credible-interval-upper-bound 90% credible interval upper bound 90-credible-interval-upper-bound                    NaN              1          NaN
+                unsmoothed-index                  Unsmoothed index                 unsmoothed-index                    NaN              2          NaN
+        
+
+- The code list has the following concepts information:
+        - Concepts hierarchy depth: 1
+        - Concepts hierarchy:
+root
+├── 90% credible interval lower bound
+├── 90% credible interval upper bound
+└── Unsmoothed index
+
+        
