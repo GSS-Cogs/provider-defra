@@ -31,7 +31,6 @@ def wrangle(input: Path(), output: Path()) -> None:
     ),
     axis=1,
     )
-    df["Year"] = df.apply(lambda x: "year/" + x["Year"], axis=1)
 
     df["Region"] = "E92000001"
     df["Measure Type"] = df.apply(
