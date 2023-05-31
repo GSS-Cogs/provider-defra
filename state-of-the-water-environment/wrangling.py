@@ -14,8 +14,7 @@ def wrangle(input: Path(), output: Path()) -> None:
 
     df = pd.concat([df1, df2, df3], axis=0, ignore_index=True, sort=False)
 
-    df["Year"] = df["variable"].str.extract(r"(\d+)")
-    df["Year"] = df["Year"].str.extract(r"(\d+)")
+    df["Year"] = df["variable"].str.extract(r"(\d+)") 
     df["variable"] = df["variable"].str.extract(r"([^(\d+)]+)")
     df = df.fillna("")
 
@@ -33,27 +32,26 @@ def wrangle(input: Path(), output: Path()) -> None:
     )
 
     df["Region"] = "E92000001"
-    df["Measure Type"] = df.apply(
+    df["Measure"] = df.apply(
     lambda x: "status-of-surface-waters"
     if x["variable"] == "" and x["site"] == ""
     else "status-of-ground-waters"
     if x["site"] == ""
     else "status-of-waters-specially-protected-for-specific-uses"
     if x["variable"] == ""
-    else "Measure",
-    axis=1,
+    else "",
+    axis=1
     )
     df["Unit"] = df.apply(
     lambda x: "percentage-of-area"
     if x["site"]
     else "percentage-of-water-bodies-assessed",
-    axis=1,
+    axis=1
     )
 
     df["site"] = df["site"].str.extract(r"([^(\d+)]+)")
     df = df.fillna("")
-    df = df.rename(columns={"Year": "Period", "status": "Status", "percentage": "Value"})
-
+    df.rename(columns={"Year": "Period", "status": "Status", "percentage": "Value"}, inplace=True)
     df["Environment Surveyed"] = df.apply(
     lambda x: x["water_body"]
     if x["variable"] == "" and x["site"] == ""
@@ -62,10 +60,11 @@ def wrangle(input: Path(), output: Path()) -> None:
     else x["site"]
     if x["water_body"] == "" and x["variable"] == ""
     else "",
-    axis=1,
+    axis=1
     )
 
-    df = df.drop(['water_body', 'variable', 'site'], axis = 1)
+    df.drop(columns=['water_body', 'variable', 'site'], axis = 1, inplace=True)
+    df.replace({'Environment Surveyed': {'Rivers: Plants & algae': 'Rivers: Plants and algae'}}, inplace=True)
     df = df[['Period', 'Region', 'Environment Surveyed', 'Status', 'Measure Type', 'Unit', 'Value']]
 
     df.to_csv(output, index=False)
