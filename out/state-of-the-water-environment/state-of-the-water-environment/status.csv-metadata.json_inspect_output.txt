@@ -1,0 +1,67 @@
+
+- This file is a code list.
+
+
+        - The code list has the following catalog metadata:
+          - Title: Status
+          - Label: Status
+          - Issued: 2023-06-01T11:38:44.733076
+          - Modified: 2023-06-01T11:38:44.733076
+          - License: None
+          - Creator: None
+          - Publisher: None
+          - Landing Pages: None
+          - Themes: None
+          - Keywords: None
+          - Contact Point: None
+          - Identifier: Status
+          - Comment: None
+          - Description: None
+        
+
+- The code list has the following dataset information:
+        - Number of Concepts: 11
+        - Number of Duplicates: 0
+        - First 10 Concepts: 
+                                                                                         Uri Identifier                                                                                                    Label                                                                                                Notation  Parent Uri Identifier  Sort Priority  Description
+                                                                                         at-good-status                                                                                           At good status                                                                                          at-good-status                    NaN              0          NaN
+                                                                                 biology-at-good-status                                                                                  Biology, at good status                                                                                  biology-at-good-status                    NaN              1          NaN
+                                                                             biology-not-at-good-status                                                                              Biology, not at good status                                                                              biology-not-at-good-status                    NaN              2          NaN
+             condition-of-sssi-units-underpinning-european-protected-water-and-wetland-sites-favourable              Condition of SSSI units underpinning European protected water and wetland sites, favourable              condition-of-sssi-units-underpinning-european-protected-water-and-wetland-sites-favourable                    NaN              3          NaN
+                  condition-of-sssi-units-underpinning-european-protected-water-and-wetland-sites-other                   Condition of SSSI units underpinning European protected water and wetland sites, other                   condition-of-sssi-units-underpinning-european-protected-water-and-wetland-sites-other                    NaN              4          NaN
+condition-of-sssi-units-underpinning-european-protected-water-and-wetland-sites-unfavourable-recovering Condition of SSSI units underpinning European protected water and wetland sites, unfavourable recovering condition-of-sssi-units-underpinning-european-protected-water-and-wetland-sites-unfavourable-recovering                    NaN              5          NaN
+                                                                 drinking-water-protected-areas-at-risk                                                                  Drinking water protected areas, at risk                                                                  drinking-water-protected-areas-at-risk                    NaN              6          NaN
+                                                             drinking-water-protected-areas-not-at-risk                                                              Drinking water protected areas, not at risk                                                              drinking-water-protected-areas-not-at-risk                    NaN              7          NaN
+                                                                       ecological-status-at-good-status                                                                        Ecological status, at good status                                                                        ecological-status-at-good-status                    NaN              8          NaN
+                                                                                ecological-status-other                                                                                 Ecological status, other                                                                                 ecological-status-other                    NaN              9          NaN
+        - Last 10 Concepts: 
+                                                                                         Uri Identifier                                                                                                    Label                                                                                                Notation  Parent Uri Identifier  Sort Priority  Description
+                                                                                 biology-at-good-status                                                                                  Biology, at good status                                                                                  biology-at-good-status                    NaN              1          NaN
+                                                                             biology-not-at-good-status                                                                              Biology, not at good status                                                                              biology-not-at-good-status                    NaN              2          NaN
+             condition-of-sssi-units-underpinning-european-protected-water-and-wetland-sites-favourable              Condition of SSSI units underpinning European protected water and wetland sites, favourable              condition-of-sssi-units-underpinning-european-protected-water-and-wetland-sites-favourable                    NaN              3          NaN
+                  condition-of-sssi-units-underpinning-european-protected-water-and-wetland-sites-other                   Condition of SSSI units underpinning European protected water and wetland sites, other                   condition-of-sssi-units-underpinning-european-protected-water-and-wetland-sites-other                    NaN              4          NaN
+condition-of-sssi-units-underpinning-european-protected-water-and-wetland-sites-unfavourable-recovering Condition of SSSI units underpinning European protected water and wetland sites, unfavourable recovering condition-of-sssi-units-underpinning-european-protected-water-and-wetland-sites-unfavourable-recovering                    NaN              5          NaN
+                                                                 drinking-water-protected-areas-at-risk                                                                  Drinking water protected areas, at risk                                                                  drinking-water-protected-areas-at-risk                    NaN              6          NaN
+                                                             drinking-water-protected-areas-not-at-risk                                                              Drinking water protected areas, not at risk                                                              drinking-water-protected-areas-not-at-risk                    NaN              7          NaN
+                                                                       ecological-status-at-good-status                                                                        Ecological status, at good status                                                                        ecological-status-at-good-status                    NaN              8          NaN
+                                                                                ecological-status-other                                                                                 Ecological status, other                                                                                 ecological-status-other                    NaN              9          NaN
+                                                                                     not-at-good-status                                                                                       Not at good status                                                                                      not-at-good-status                    NaN             10          NaN
+        
+
+- The code list has the following concepts information:
+        - Concepts hierarchy depth: 1
+        - Concepts hierarchy:
+root
+├── At good status
+├── Biology, at good status
+├── Biology, not at good status
+├── Condition of SSSI units underpinning European protected water and wetland sites, favourable
+├── Condition of SSSI units underpinning European protected water and wetland sites, other
+├── Condition of SSSI units underpinning European protected water and wetland sites, unfavourable recovering
+├── Drinking water protected areas, at risk
+├── Drinking water protected areas, not at risk
+├── Ecological status, at good status
+├── Ecological status, other
+└── Not at good status
+
+        

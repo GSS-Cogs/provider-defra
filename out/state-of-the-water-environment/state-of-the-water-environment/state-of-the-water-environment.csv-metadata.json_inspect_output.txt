@@ -1,0 +1,84 @@
+
+- This file is a data cube.
+
+
+        - The data cube has the following catalog metadata:
+          - Title: State of the water environment
+          - Label: State of the water environment
+          - Issued: 2023-05-22T00:00:00
+          - Modified: 2023-05-22T00:00:00
+          - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+          - Creator: https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs
+          - Publisher: https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs
+          - Landing Pages: None
+          - Themes: 
+		-- https://www.ons.gov.uk/economy/environmentalaccounts
+          - Keywords: 
+		-- waters
+		-- water-quality
+		-- water-quatity
+		-- groundwater
+		-- surface-waters
+          - Contact Point: None
+          - Identifier: State of the water environment
+          - Comment: Status of surface waters, groundwaters and waters specially protected for specific uses in England
+          - Description: Part of The Outcome Indicator Framework, a comprehensive set of indicators describing environmental change that relates to the 10 goals within the 25 Year Environment Plan. The framework contains 66 indicators, arranged into 10 broad themes. The indicators are extensive; they cover natural capital assets (for example, land, freshwater, air and seas) and together they show the condition of these assets, the pressures acting upon them and the provision of services or benefits they provide.
+        
+
+ - The data cube has the following column component information: 
+    - Dataset Label: State of the water environment
+    - Columns: 
+                   Title         Type  Required                                                       Property URL Observations Column Titles
+                    Year    Dimension      True                  state-of-the-water-environment.csv#dimension/year                           
+                  Region    Dimension      True state-of-the-water-environment.csv#dimension/statistical-geography                           
+    Environment Surveyed    Dimension      True  state-of-the-water-environment.csv#dimension/environment-surveyed                           
+                  Status    Dimension      True                state-of-the-water-environment.csv#dimension/status                           
+            Measure Type     Measures      True                       http://purl.org/linked-data/cube#measureType                Observation
+                    Unit        Units      True        http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure                           
+             Observation Observations      True                  http://gss-data.org.uk/def/measure/{measure_type}                           
+    - Columns where suppress output is true: None
+
+- The data cube has the following code list information:
+        - Number of Code Lists: 3
+        - Code Lists:
+                         Code List      Code List Label      Columns Used In
+environment-surveyed.csv#code-list Environment Surveyed Environment Surveyed
+              status.csv#code-list               Status               Status
+                year.csv#code-list                 Year                 Year
+
+- The data cube has the following dataset information:
+        - Number of Observations: 23
+        - Number of Duplicates: 0
+        - First 10 Observations: 
+ Year    Region     Environment Surveyed                           Status             Measure Type                                Unit  Observation
+ 2019 E92000001 all-surface-water-bodies ecological-status-at-good-status status-of-surface-waters percentage-of-water-bodies-assessed         16.0
+ 2019 E92000001 all-surface-water-bodies          ecological-status-other status-of-surface-waters percentage-of-water-bodies-assessed         84.0
+ 2019 E92000001 coastal-waters-saltmarsh           biology-at-good-status status-of-surface-waters percentage-of-water-bodies-assessed         50.0
+ 2019 E92000001      estuaries-saltmarsh           biology-at-good-status status-of-surface-waters percentage-of-water-bodies-assessed         36.0
+ 2019 E92000001      lakes-phytoplankton           biology-at-good-status status-of-surface-waters percentage-of-water-bodies-assessed         52.0
+ 2019 E92000001  rivers-plants-and-algae           biology-at-good-status status-of-surface-waters percentage-of-water-bodies-assessed         45.0
+ 2019 E92000001     rivers-invertebrates           biology-at-good-status status-of-surface-waters percentage-of-water-bodies-assessed         76.0
+ 2019 E92000001 coastal-waters-saltmarsh       biology-not-at-good-status status-of-surface-waters percentage-of-water-bodies-assessed         50.0
+ 2019 E92000001      estuaries-saltmarsh       biology-not-at-good-status status-of-surface-waters percentage-of-water-bodies-assessed         64.0
+ 2019 E92000001      lakes-phytoplankton       biology-not-at-good-status status-of-surface-waters percentage-of-water-bodies-assessed         48.0
+        - Last 10 Observations: 
+ Year    Region     Environment Surveyed                                                                                                  Status                                           Measure Type                                Unit  Observation
+ 2022 E92000001           water-quantity                                                                                          at-good-status                                status-of-ground-waters percentage-of-water-bodies-assessed         73.0
+ 2019 E92000001            water-quality                                                                                      not-at-good-status                                status-of-ground-waters percentage-of-water-bodies-assessed         55.0
+ 2022 E92000001           water-quantity                                                                                      not-at-good-status                                status-of-ground-waters percentage-of-water-bodies-assessed         27.0
+ 2019 E92000001              groundwater                                                              drinking-water-protected-areas-not-at-risk status-of-waters-specially-protected-for-specific-uses                  percentage-of-area         53.0
+ 2022 E92000001            surface-water                                                              drinking-water-protected-areas-not-at-risk status-of-waters-specially-protected-for-specific-uses                  percentage-of-area         47.0
+ 2019 E92000001              groundwater                                                                  drinking-water-protected-areas-at-risk status-of-waters-specially-protected-for-specific-uses                  percentage-of-area         47.0
+ 2022 E92000001            surface-water                                                                  drinking-water-protected-areas-at-risk status-of-waters-specially-protected-for-specific-uses                  percentage-of-area         53.0
+ 2022 E92000001 protected-wildlife-sites              condition-of-sssi-units-underpinning-european-protected-water-and-wetland-sites-favourable status-of-waters-specially-protected-for-specific-uses                  percentage-of-area         45.1
+ 2022 E92000001 protected-wildlife-sites condition-of-sssi-units-underpinning-european-protected-water-and-wetland-sites-unfavourable-recovering status-of-waters-specially-protected-for-specific-uses                  percentage-of-area         43.1
+ 2022 E92000001 protected-wildlife-sites                   condition-of-sssi-units-underpinning-european-protected-water-and-wetland-sites-other status-of-waters-specially-protected-for-specific-uses                  percentage-of-area         11.8
+        
+
+- The data cube has the following value counts:
+        - Value counts broken-down by measure and unit (of measure):
+                                               Measure                                Unit  Count
+                               status-of-ground-waters percentage-of-water-bodies-assessed      4
+                              status-of-surface-waters percentage-of-water-bodies-assessed     12
+status-of-waters-specially-protected-for-specific-uses                  percentage-of-area      7
+        

@@ -1,0 +1,12 @@
+Uri Identifier,Label,Notation,Parent Uri Identifier,Sort Priority,Description
+all-surface-water-bodies,All surface water bodies,all-surface-water-bodies,,0,
+coastal-waters-saltmarsh,Coastal waters: Saltmarsh,coastal-waters-saltmarsh,,1,
+estuaries-saltmarsh,Estuaries: Saltmarsh,estuaries-saltmarsh,,2,
+groundwater,Groundwater ,groundwater,,3,
+lakes-phytoplankton,Lakes: Phytoplankton,lakes-phytoplankton,,4,
+protected-wildlife-sites,Protected wildlife sites ,protected-wildlife-sites,,5,
+rivers-invertebrates,Rivers: Invertebrates,rivers-invertebrates,,6,
+rivers-plants-and-algae,Rivers: Plants and algae,rivers-plants-and-algae,,7,
+surface-water,Surface water ,surface-water,,8,
+water-quality,Water quality ,water-quality,,9,
+water-quantity,Water quantity ,water-quantity,,10,
