@@ -52,7 +52,7 @@
                         "titles": "Observation",
                         "name": "observation",
                         "propertyUrl": "http://gss-data.org.uk/def/measure/{measure_type}",
-                        "datatype": "float",
+                        "datatype": "decimal",
                         "required": true
                     },
                     {
@@ -126,53 +126,56 @@
             ]
         },
         {
-            "@id": "state-of-the-water-environment.csv#component/unit",
+            "@id": "state-of-the-water-environment.csv#component/measure-type",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": true
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 8
-                }
-            ]
-        },
-        {
-            "@id": "state-of-the-water-environment.csv#component/statistical-geography",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "state-of-the-water-environment.csv#dimension/statistical-geography"
+                    "@id": "http://purl.org/linked-data/cube#measureType"
                 }
             ],
             "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "state-of-the-water-environment.csv#dimension/statistical-geography"
+                    "@id": "http://purl.org/linked-data/cube#measureType"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 2
+                    "@value": 9
+                }
+            ]
+        },
+        {
+            "@id": "state-of-the-water-environment.csv#dimension/year",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "year.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Year"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "state-of-the-water-environment.csv#class/year"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
                 }
             ]
         },
@@ -203,6 +206,82 @@
             ]
         },
         {
+            "@id": "state-of-the-water-environment.csv#component/status-of-waters-specially-protected-for-specific-uses",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://gss-data.org.uk/def/measure/status-of-waters-specially-protected-for-specific-uses"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "http://gss-data.org.uk/def/measure/status-of-waters-specially-protected-for-specific-uses"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 7
+                }
+            ]
+        },
+        {
+            "@id": "state-of-the-water-environment.csv#class/statistical-geography",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "state-of-the-water-environment.csv#component/statistical-geography",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "state-of-the-water-environment.csv#dimension/statistical-geography"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "state-of-the-water-environment.csv#dimension/statistical-geography"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 2
+                }
+            ]
+        },
+        {
+            "@id": "state-of-the-water-environment.csv#component/status",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "state-of-the-water-environment.csv#dimension/status"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "state-of-the-water-environment.csv#dimension/status"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 4
+                }
+            ]
+        },
+        {
             "@id": "state-of-the-water-environment.csv#dimension/status",
             "@type": [
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
@@ -229,32 +308,67 @@
             ]
         },
         {
-            "@id": "state-of-the-water-environment.csv#class/statistical-geography",
+            "@id": "state-of-the-water-environment.csv#class/environment-surveyed",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Class",
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ]
         },
         {
-            "@id": "state-of-the-water-environment.csv#component/status",
+            "@id": "state-of-the-water-environment.csv#component/status-of-surface-waters",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "state-of-the-water-environment.csv#dimension/status"
+                    "@id": "http://gss-data.org.uk/def/measure/status-of-surface-waters"
                 }
             ],
-            "http://purl.org/linked-data/cube#dimension": [
+            "http://purl.org/linked-data/cube#measure": [
                 {
-                    "@id": "state-of-the-water-environment.csv#dimension/status"
+                    "@id": "http://gss-data.org.uk/def/measure/status-of-surface-waters"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 4
+                    "@value": 6
+                }
+            ]
+        },
+        {
+            "@id": "state-of-the-water-environment.csv#component/year",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "state-of-the-water-environment.csv#dimension/year"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "state-of-the-water-environment.csv#dimension/year"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 1
+                }
+            ]
+        },
+        {
+            "@id": "state-of-the-water-environment.csv#csvcubed-build-activity",
+            "@type": [
+                "http://www.w3.org/ns/prov#Activity",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
                 }
             ]
         },
@@ -285,160 +399,6 @@
             ]
         },
         {
-            "@id": "state-of-the-water-environment.csv#component/measure-type",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 9
-                }
-            ]
-        },
-        {
-            "@id": "state-of-the-water-environment.csv#class/environment-surveyed",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Class",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ]
-        },
-        {
-            "@id": "state-of-the-water-environment.csv#component/status-of-waters-specially-protected-for-specific-uses",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://gss-data.org.uk/def/measure/status-of-waters-specially-protected-for-specific-uses"
-                }
-            ],
-            "http://purl.org/linked-data/cube#measure": [
-                {
-                    "@id": "http://gss-data.org.uk/def/measure/status-of-waters-specially-protected-for-specific-uses"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 7
-                }
-            ]
-        },
-        {
-            "@id": "state-of-the-water-environment.csv#csvcubed-build-activity",
-            "@type": [
-                "http://www.w3.org/ns/prov#Activity",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://www.w3.org/ns/prov#used": [
-                {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
-                }
-            ]
-        },
-        {
-            "@id": "state-of-the-water-environment.csv#component/environment-surveyed",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "state-of-the-water-environment.csv#dimension/environment-surveyed"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "state-of-the-water-environment.csv#dimension/environment-surveyed"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 3
-                }
-            ]
-        },
-        {
-            "@id": "state-of-the-water-environment.csv#structure",
-            "@type": [
-                "http://purl.org/linked-data/cube#DataStructureDefinition",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#component": [
-                {
-                    "@id": "state-of-the-water-environment.csv#component/measure-type"
-                },
-                {
-                    "@id": "state-of-the-water-environment.csv#component/environment-surveyed"
-                },
-                {
-                    "@id": "state-of-the-water-environment.csv#component/year"
-                },
-                {
-                    "@id": "state-of-the-water-environment.csv#component/status-of-surface-waters"
-                },
-                {
-                    "@id": "state-of-the-water-environment.csv#component/status"
-                },
-                {
-                    "@id": "state-of-the-water-environment.csv#component/unit"
-                },
-                {
-                    "@id": "state-of-the-water-environment.csv#component/status-of-ground-waters"
-                },
-                {
-                    "@id": "state-of-the-water-environment.csv#component/status-of-waters-specially-protected-for-specific-uses"
-                },
-                {
-                    "@id": "state-of-the-water-environment.csv#component/statistical-geography"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://gss-data.org.uk/def/measure/status-of-ground-waters"
-                },
-                {
-                    "@id": "http://gss-data.org.uk/def/measure/status-of-waters-specially-protected-for-specific-uses"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                },
-                {
-                    "@id": "state-of-the-water-environment.csv#dimension/environment-surveyed"
-                },
-                {
-                    "@id": "state-of-the-water-environment.csv#dimension/statistical-geography"
-                },
-                {
-                    "@id": "http://gss-data.org.uk/def/measure/status-of-surface-waters"
-                },
-                {
-                    "@id": "state-of-the-water-environment.csv#dimension/status"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
-                {
-                    "@id": "state-of-the-water-environment.csv#dimension/year"
-                }
-            ]
-        },
-        {
             "@id": "state-of-the-water-environment.csv#class/status",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Class",
@@ -448,11 +408,11 @@
         {
             "@id": "state-of-the-water-environment.csv#dataset",
             "@type": [
-                "http://www.w3.org/ns/dcat#Dataset",
-                "http://purl.org/linked-data/cube#DataSet",
                 "http://purl.org/linked-data/cube#Attachable",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://www.w3.org/ns/dcat#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/ns/dcat#Dataset",
+                "http://purl.org/linked-data/cube#DataSet"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -518,7 +478,15 @@
             "http://www.w3.org/ns/dcat#keyword": [
                 {
                     "@language": "en",
-                    "@value": "waters"
+                    "@value": "water-quality"
+                },
+                {
+                    "@language": "en",
+                    "@value": "water-quantity"
+                },
+                {
+                    "@language": "en",
+                    "@value": "surface-waters"
                 },
                 {
                     "@language": "en",
@@ -526,15 +494,7 @@
                 },
                 {
                     "@language": "en",
-                    "@value": "water-quatity"
-                },
-                {
-                    "@language": "en",
-                    "@value": "water-quality"
-                },
-                {
-                    "@language": "en",
-                    "@value": "surface-waters"
+                    "@value": "waters"
                 }
             ],
             "http://www.w3.org/ns/dcat#theme": [
@@ -549,33 +509,25 @@
             ]
         },
         {
-            "@id": "state-of-the-water-environment.csv#dimension/year",
+            "@id": "state-of-the-water-environment.csv#component/environment-surveyed",
             "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
-            "http://purl.org/linked-data/cube#codeList": [
+            "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "year.csv#code-list"
+                    "@id": "state-of-the-water-environment.csv#dimension/environment-surveyed"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
+            "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@language": "en",
-                    "@value": "Year"
+                    "@id": "state-of-the-water-environment.csv#dimension/environment-surveyed"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
+            "http://purl.org/linked-data/cube#order": [
                 {
-                    "@id": "state-of-the-water-environment.csv#class/year"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
+                    "@value": 3
                 }
             ]
         },
@@ -583,8 +535,8 @@
             "@id": "state-of-the-water-environment.csv#component/status-of-ground-waters",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
@@ -603,56 +555,104 @@
             ]
         },
         {
-            "@id": "state-of-the-water-environment.csv#component/year",
+            "@id": "state-of-the-water-environment.csv#structure",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DataStructureDefinition"
+            ],
+            "http://purl.org/linked-data/cube#component": [
+                {
+                    "@id": "state-of-the-water-environment.csv#component/status-of-ground-waters"
+                },
+                {
+                    "@id": "state-of-the-water-environment.csv#component/status-of-waters-specially-protected-for-specific-uses"
+                },
+                {
+                    "@id": "state-of-the-water-environment.csv#component/statistical-geography"
+                },
+                {
+                    "@id": "state-of-the-water-environment.csv#component/measure-type"
+                },
+                {
+                    "@id": "state-of-the-water-environment.csv#component/environment-surveyed"
+                },
+                {
+                    "@id": "state-of-the-water-environment.csv#component/year"
+                },
+                {
+                    "@id": "state-of-the-water-environment.csv#component/status-of-surface-waters"
+                },
+                {
+                    "@id": "state-of-the-water-environment.csv#component/status"
+                },
+                {
+                    "@id": "state-of-the-water-environment.csv#component/unit"
+                }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "state-of-the-water-environment.csv#dimension/year"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
+                    "@id": "state-of-the-water-environment.csv#dimension/status"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
                 {
                     "@id": "state-of-the-water-environment.csv#dimension/year"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
+                },
                 {
-                    "@value": 1
+                    "@id": "http://gss-data.org.uk/def/measure/status-of-ground-waters"
+                },
+                {
+                    "@id": "http://gss-data.org.uk/def/measure/status-of-waters-specially-protected-for-specific-uses"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "state-of-the-water-environment.csv#dimension/environment-surveyed"
+                },
+                {
+                    "@id": "state-of-the-water-environment.csv#dimension/statistical-geography"
+                },
+                {
+                    "@id": "http://gss-data.org.uk/def/measure/status-of-surface-waters"
                 }
             ]
         },
         {
-            "@id": "state-of-the-water-environment.csv#component/status-of-surface-waters",
+            "@id": "state-of-the-water-environment.csv#component/unit",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "http://gss-data.org.uk/def/measure/status-of-surface-waters"
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
                 }
             ],
-            "http://purl.org/linked-data/cube#measure": [
+            "http://purl.org/linked-data/cube#componentRequired": [
                 {
-                    "@id": "http://gss-data.org.uk/def/measure/status-of-surface-waters"
+                    "@value": true
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 6
+                    "@value": 8
                 }
             ]
         },
         {
             "@id": "state-of-the-water-environment.csv#dependency/year",
             "@type": [
-                "http://rdfs.org/ns/void#Dataset",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -668,8 +668,8 @@
         {
             "@id": "state-of-the-water-environment.csv#dependency/environment-surveyed",
             "@type": [
-                "http://rdfs.org/ns/void#Dataset",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -685,8 +685,8 @@
         {
             "@id": "state-of-the-water-environment.csv#dependency/status",
             "@type": [
-                "http://rdfs.org/ns/void#Dataset",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {

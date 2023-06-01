@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/economy/environmentalaccounts
           - Keywords: 
+		-- groundwater
 		-- waters
 		-- water-quality
-		-- water-quatity
-		-- groundwater
 		-- surface-waters
+		-- water-quantity
           - Contact Point: None
           - Identifier: State of the water environment
           - Comment: Status of surface waters, groundwaters and waters specially protected for specific uses in England
