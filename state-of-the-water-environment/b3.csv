@@ -1,0 +1,24 @@
+water_body,status,percentage,variable,site
+All surface water bodies,"Ecological status, at good status",16.0,,
+All surface water bodies,"Ecological status, other",84.0,,
+Coastal waters: Saltmarsh,"Biology, at good status",50.0,,
+Estuaries: Saltmarsh,"Biology, at good status",36.0,,
+Lakes: Phytoplankton,"Biology, at good status",52.0,,
+Rivers: Plants & algae,"Biology, at good status",45.0,,
+Rivers: Invertebrates,"Biology, at good status",76.0,,
+Coastal waters: Saltmarsh,"Biology, not at good status",50.0,,
+Estuaries: Saltmarsh,"Biology, not at good status",64.0,,
+Lakes: Phytoplankton,"Biology, not at good status",48.0,,
+Rivers: Plants & algae,"Biology, not at good status",55.0,,
+Rivers: Invertebrates,"Biology, not at good status",24.0,,
+,At good status,45.0,Water quality (2019),
+,At good status,73.0,Water quantity (2022),
+,Not at good status,55.0,Water quality (2019),
+,Not at good status,27.0,Water quantity (2022),
+,"Drinking water protected areas, not at risk",53.0,,Groundwater (2019)
+,"Drinking water protected areas, not at risk",47.0,,Surface water (2022)
+,"Drinking water protected areas, at risk",47.0,,Groundwater (2019)
+,"Drinking water protected areas, at risk",53.0,,Surface water (2022)
+,"Condition of SSSI units underpinning European protected water and wetland sites, favourable",45.1,,Protected wildlife sites (2022)
+,"Condition of SSSI units underpinning European protected water and wetland sites, unfavourable recovering",43.1,,Protected wildlife sites (2022)
+,"Condition of SSSI units underpinning European protected water and wetland sites, other",11.8,,Protected wildlife sites (2022)
