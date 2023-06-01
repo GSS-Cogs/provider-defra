@@ -1,0 +1,24 @@
+Year,Region,Environment Surveyed,Status,Measure Type,Unit,Observation
+2019,E92000001,all-surface-water-bodies,ecological-status-at-good-status,status-of-surface-waters,percentage-of-water-bodies-assessed,16.0
+2019,E92000001,all-surface-water-bodies,ecological-status-other,status-of-surface-waters,percentage-of-water-bodies-assessed,84.0
+2019,E92000001,coastal-waters-saltmarsh,biology-at-good-status,status-of-surface-waters,percentage-of-water-bodies-assessed,50.0
+2019,E92000001,estuaries-saltmarsh,biology-at-good-status,status-of-surface-waters,percentage-of-water-bodies-assessed,36.0
+2019,E92000001,lakes-phytoplankton,biology-at-good-status,status-of-surface-waters,percentage-of-water-bodies-assessed,52.0
+2019,E92000001,rivers-plants-and-algae,biology-at-good-status,status-of-surface-waters,percentage-of-water-bodies-assessed,45.0
+2019,E92000001,rivers-invertebrates,biology-at-good-status,status-of-surface-waters,percentage-of-water-bodies-assessed,76.0
+2019,E92000001,coastal-waters-saltmarsh,biology-not-at-good-status,status-of-surface-waters,percentage-of-water-bodies-assessed,50.0
+2019,E92000001,estuaries-saltmarsh,biology-not-at-good-status,status-of-surface-waters,percentage-of-water-bodies-assessed,64.0
+2019,E92000001,lakes-phytoplankton,biology-not-at-good-status,status-of-surface-waters,percentage-of-water-bodies-assessed,48.0
+2019,E92000001,rivers-plants-and-algae,biology-not-at-good-status,status-of-surface-waters,percentage-of-water-bodies-assessed,55.0
+2019,E92000001,rivers-invertebrates,biology-not-at-good-status,status-of-surface-waters,percentage-of-water-bodies-assessed,24.0
+2019,E92000001,water-quality,at-good-status,status-of-ground-waters,percentage-of-water-bodies-assessed,45.0
+2022,E92000001,water-quantity,at-good-status,status-of-ground-waters,percentage-of-water-bodies-assessed,73.0
+2019,E92000001,water-quality,not-at-good-status,status-of-ground-waters,percentage-of-water-bodies-assessed,55.0
+2022,E92000001,water-quantity,not-at-good-status,status-of-ground-waters,percentage-of-water-bodies-assessed,27.0
+2019,E92000001,groundwater,drinking-water-protected-areas-not-at-risk,status-of-waters-specially-protected-for-specific-uses,percentage-of-area,53.0
+2022,E92000001,surface-water,drinking-water-protected-areas-not-at-risk,status-of-waters-specially-protected-for-specific-uses,percentage-of-area,47.0
+2019,E92000001,groundwater,drinking-water-protected-areas-at-risk,status-of-waters-specially-protected-for-specific-uses,percentage-of-area,47.0
+2022,E92000001,surface-water,drinking-water-protected-areas-at-risk,status-of-waters-specially-protected-for-specific-uses,percentage-of-area,53.0
+2022,E92000001,protected-wildlife-sites,condition-of-sssi-units-underpinning-european-protected-water-and-wetland-sites-favourable,status-of-waters-specially-protected-for-specific-uses,percentage-of-area,45.1
+2022,E92000001,protected-wildlife-sites,condition-of-sssi-units-underpinning-european-protected-water-and-wetland-sites-unfavourable-recovering,status-of-waters-specially-protected-for-specific-uses,percentage-of-area,43.1
+2022,E92000001,protected-wildlife-sites,condition-of-sssi-units-underpinning-european-protected-water-and-wetland-sites-other,status-of-waters-specially-protected-for-specific-uses,percentage-of-area,11.8
