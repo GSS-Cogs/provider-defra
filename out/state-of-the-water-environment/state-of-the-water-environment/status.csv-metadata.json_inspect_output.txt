@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: Status
           - Label: Status
-          - Issued: 2023-06-01T11:38:44.733076
-          - Modified: 2023-06-01T11:38:44.733076
+          - Issued: 2023-06-01T17:09:37.579166
+          - Modified: 2023-06-01T17:09:37.579166
           - License: None
           - Creator: None
           - Publisher: None
