@@ -10,7 +10,7 @@
         "groundwater",
         "surface-waters",
         "water-quality",
-        "water-quatity"
+        "water-quantity"
     ],
     "publisher": "https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs",
     "themes": [
@@ -45,7 +45,7 @@
         },
         "Observation": {
             "type": "observations",
-            "data_type": "float"
+            "data_type": "decimal"
         }
     }
 }
