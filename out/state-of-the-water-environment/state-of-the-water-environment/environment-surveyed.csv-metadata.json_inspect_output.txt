@@ -1,0 +1,67 @@
+
+- This file is a code list.
+
+
+        - The code list has the following catalog metadata:
+          - Title: Environment Surveyed
+          - Label: Environment Surveyed
+          - Issued: 2023-06-01T11:38:44.729636
+          - Modified: 2023-06-01T11:38:44.729636
+          - License: None
+          - Creator: None
+          - Publisher: None
+          - Landing Pages: None
+          - Themes: None
+          - Keywords: None
+          - Contact Point: None
+          - Identifier: Environment Surveyed
+          - Comment: None
+          - Description: None
+        
+
+- The code list has the following dataset information:
+        - Number of Concepts: 11
+        - Number of Duplicates: 0
+        - First 10 Concepts: 
+          Uri Identifier                     Label                 Notation  Parent Uri Identifier  Sort Priority  Description
+all-surface-water-bodies  All surface water bodies all-surface-water-bodies                    NaN              0          NaN
+coastal-waters-saltmarsh Coastal waters: Saltmarsh coastal-waters-saltmarsh                    NaN              1          NaN
+     estuaries-saltmarsh      Estuaries: Saltmarsh      estuaries-saltmarsh                    NaN              2          NaN
+             groundwater              Groundwater               groundwater                    NaN              3          NaN
+     lakes-phytoplankton      Lakes: Phytoplankton      lakes-phytoplankton                    NaN              4          NaN
+protected-wildlife-sites Protected wildlife sites  protected-wildlife-sites                    NaN              5          NaN
+    rivers-invertebrates     Rivers: Invertebrates     rivers-invertebrates                    NaN              6          NaN
+ rivers-plants-and-algae  Rivers: Plants and algae  rivers-plants-and-algae                    NaN              7          NaN
+           surface-water            Surface water             surface-water                    NaN              8          NaN
+           water-quality            Water quality             water-quality                    NaN              9          NaN
+        - Last 10 Concepts: 
+          Uri Identifier                     Label                 Notation  Parent Uri Identifier  Sort Priority  Description
+coastal-waters-saltmarsh Coastal waters: Saltmarsh coastal-waters-saltmarsh                    NaN              1          NaN
+     estuaries-saltmarsh      Estuaries: Saltmarsh      estuaries-saltmarsh                    NaN              2          NaN
+             groundwater              Groundwater               groundwater                    NaN              3          NaN
+     lakes-phytoplankton      Lakes: Phytoplankton      lakes-phytoplankton                    NaN              4          NaN
+protected-wildlife-sites Protected wildlife sites  protected-wildlife-sites                    NaN              5          NaN
+    rivers-invertebrates     Rivers: Invertebrates     rivers-invertebrates                    NaN              6          NaN
+ rivers-plants-and-algae  Rivers: Plants and algae  rivers-plants-and-algae                    NaN              7          NaN
+           surface-water            Surface water             surface-water                    NaN              8          NaN
+           water-quality            Water quality             water-quality                    NaN              9          NaN
+          water-quantity           Water quantity            water-quantity                    NaN             10          NaN
+        
+
+- The code list has the following concepts information:
+        - Concepts hierarchy depth: 1
+        - Concepts hierarchy:
+root
+├── All surface water bodies
+├── Coastal waters: Saltmarsh
+├── Estuaries: Saltmarsh
+├── Groundwater 
+├── Lakes: Phytoplankton
+├── Protected wildlife sites 
+├── Rivers: Invertebrates
+├── Rivers: Plants and algae
+├── Surface water 
+├── Water quality 
+└── Water quantity 
+
+        

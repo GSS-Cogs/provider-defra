@@ -1,0 +1,12 @@
+Uri Identifier,Label,Notation,Parent Uri Identifier,Sort Priority,Description
+at-good-status,At good status,at-good-status,,0,
+biology-at-good-status,"Biology, at good status",biology-at-good-status,,1,
+biology-not-at-good-status,"Biology, not at good status",biology-not-at-good-status,,2,
+condition-of-sssi-units-underpinning-european-protected-water-and-wetland-sites-favourable,"Condition of SSSI units underpinning European protected water and wetland sites, favourable",condition-of-sssi-units-underpinning-european-protected-water-and-wetland-sites-favourable,,3,
+condition-of-sssi-units-underpinning-european-protected-water-and-wetland-sites-other,"Condition of SSSI units underpinning European protected water and wetland sites, other",condition-of-sssi-units-underpinning-european-protected-water-and-wetland-sites-other,,4,
+condition-of-sssi-units-underpinning-european-protected-water-and-wetland-sites-unfavourable-recovering,"Condition of SSSI units underpinning European protected water and wetland sites, unfavourable recovering",condition-of-sssi-units-underpinning-european-protected-water-and-wetland-sites-unfavourable-recovering,,5,
+drinking-water-protected-areas-at-risk,"Drinking water protected areas, at risk",drinking-water-protected-areas-at-risk,,6,
+drinking-water-protected-areas-not-at-risk,"Drinking water protected areas, not at risk",drinking-water-protected-areas-not-at-risk,,7,
+ecological-status-at-good-status,"Ecological status, at good status",ecological-status-at-good-status,,8,
+ecological-status-other,"Ecological status, other",ecological-status-other,,9,
+not-at-good-status,Not at good status,not-at-good-status,,10,
