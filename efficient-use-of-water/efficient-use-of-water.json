@@ -1,0 +1,39 @@
+{
+    "$schema": "https://purl.org/csv-cubed/qube-config/v1",
+    "title": "UK Water Leakage",
+    "creator": "https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs",
+    "summary": "",
+    "description": "",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "keywords": [
+        "water",
+        "water-leakage",
+        "megalitres",
+        "water-consumption",
+        "united-kingdom"
+    ],
+    "themes": [
+        "https://www.ons.gov.uk/economy/environmentalaccounts"
+    ],
+    "dataset_issued": "2023-06-20",
+    "columns": {
+        "Period": {
+            "from_template": "government-half-year"
+        },
+        "Countries": {
+            "from_template": "statistical-geography"       
+        },
+        "Observation": {
+            "type": "observations",
+            "data_type": "float",
+            "measure": {
+                "label": "Water leakage",
+                "from_existing": "https://purl.org/csv-cubed/resources/measures#count"
+            },
+            "unit": {
+                "label": "Megalitres per day",
+                "from_existing": "http://qudt.org/vocab/unit/PERCENT-PER-DAY"
+            }
+        }
+    }
+}
