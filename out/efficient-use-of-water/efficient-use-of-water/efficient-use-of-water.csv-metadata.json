@@ -121,99 +121,18 @@
     ],
     "rdfs:seeAlso": [
         {
-            "@id": "efficient-use-of-water.csv#component/unit",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": true
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 4
-                }
-            ]
-        },
-        {
-            "@id": "efficient-use-of-water.csv#structure",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#DataStructureDefinition"
-            ],
-            "http://purl.org/linked-data/cube#component": [
-                {
-                    "@id": "efficient-use-of-water.csv#component/water-leakage"
-                },
-                {
-                    "@id": "efficient-use-of-water.csv#component/observation-status"
-                },
-                {
-                    "@id": "efficient-use-of-water.csv#component/government-year"
-                },
-                {
-                    "@id": "efficient-use-of-water.csv#component/measure-type"
-                },
-                {
-                    "@id": "efficient-use-of-water.csv#component/statistical-geography"
-                },
-                {
-                    "@id": "efficient-use-of-water.csv#component/unit"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
-                {
-                    "@id": "efficient-use-of-water.csv#attribute/observation-status"
-                },
-                {
-                    "@id": "efficient-use-of-water.csv#dimension/statistical-geography"
-                },
-                {
-                    "@id": "efficient-use-of-water.csv#dimension/government-year"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                },
-                {
-                    "@id": "efficient-use-of-water.csv#measure/water-leakage"
-                }
-            ],
-            "http://purl.org/linked-data/cube#sliceKey": [
-                {
-                    "@id": "efficient-use-of-water.csv#slice/cross-measures"
-                }
-            ]
-        },
-        {
             "@id": "efficient-use-of-water.csv#class/government-year",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ]
         },
         {
             "@id": "efficient-use-of-water.csv#component/statistical-geography",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
@@ -232,68 +151,36 @@
             ]
         },
         {
-            "@id": "efficient-use-of-water.csv#attribute/observation-status",
+            "@id": "efficient-use-of-water.csv#component/water-leakage",
             "@type": [
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Observation Status"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
-                }
-            ]
-        },
-        {
-            "@id": "efficient-use-of-water.csv#component/observation-status",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "efficient-use-of-water.csv#attribute/observation-status"
-                }
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "efficient-use-of-water.csv#attribute/observation-status"
+                    "@id": "efficient-use-of-water.csv#measure/water-leakage"
                 }
             ],
-            "http://purl.org/linked-data/cube#componentRequired": [
+            "http://purl.org/linked-data/cube#measure": [
                 {
-                    "@value": false
+                    "@id": "efficient-use-of-water.csv#measure/water-leakage"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 6
+                    "@value": 5
                 }
-            ]
-        },
-        {
-            "@id": "efficient-use-of-water.csv#class/statistical-geography",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
             ]
         },
         {
             "@id": "efficient-use-of-water.csv#dimension/statistical-geography",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#DimensionProperty"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
@@ -313,58 +200,19 @@
             ]
         },
         {
-            "@id": "efficient-use-of-water.csv#component/government-year",
+            "@id": "efficient-use-of-water.csv#class/statistical-geography",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "efficient-use-of-water.csv#dimension/government-year"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "efficient-use-of-water.csv#dimension/government-year"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 1
-                }
-            ]
-        },
-        {
-            "@id": "efficient-use-of-water.csv#component/measure-type",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 3
-                }
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ]
         },
         {
             "@id": "efficient-use-of-water.csv#measure/water-leakage",
             "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://purl.org/linked-data/cube#MeasureProperty",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty"
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
             ],
             "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
                 {
@@ -384,95 +232,36 @@
             ]
         },
         {
-            "@id": "efficient-use-of-water.csv#component/water-leakage",
+            "@id": "efficient-use-of-water.csv#component/measure-type",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "efficient-use-of-water.csv#measure/water-leakage"
+                    "@id": "http://purl.org/linked-data/cube#measureType"
                 }
             ],
-            "http://purl.org/linked-data/cube#measure": [
+            "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "efficient-use-of-water.csv#measure/water-leakage"
+                    "@id": "http://purl.org/linked-data/cube#measureType"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 5
-                }
-            ]
-        },
-        {
-            "@id": "efficient-use-of-water.csv#slice/cross-measures",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#SliceKey"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "efficient-use-of-water.csv#dimension/statistical-geography"
-                },
-                {
-                    "@id": "efficient-use-of-water.csv#dimension/government-year"
-                }
-            ]
-        },
-        {
-            "@id": "efficient-use-of-water.csv#dimension/government-year",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#DimensionProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "government-year.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Government Year"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "efficient-use-of-water.csv#class/government-year"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
-                }
-            ]
-        },
-        {
-            "@id": "efficient-use-of-water.csv#csvcubed-build-activity",
-            "@type": [
-                "http://www.w3.org/ns/prov#Activity",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://www.w3.org/ns/prov#used": [
-                {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.4"
+                    "@value": 3
                 }
             ]
         },
         {
             "@id": "efficient-use-of-water.csv#dataset",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/dcat#Resource",
                 "http://www.w3.org/ns/dcat#Dataset",
-                "http://purl.org/linked-data/cube#Attachable",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#DataSet",
-                "http://www.w3.org/ns/dcat#Resource"
+                "http://purl.org/linked-data/cube#Attachable"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -538,7 +327,11 @@
             "http://www.w3.org/ns/dcat#keyword": [
                 {
                     "@language": "en",
-                    "@value": "megalitres"
+                    "@value": "megalitres-per-day"
+                },
+                {
+                    "@language": "en",
+                    "@value": "leakage"
                 },
                 {
                     "@language": "en",
@@ -550,11 +343,7 @@
                 },
                 {
                     "@language": "en",
-                    "@value": "megalitres-per-day"
-                },
-                {
-                    "@language": "en",
-                    "@value": "leakage"
+                    "@value": "megalitres"
                 }
             ],
             "http://www.w3.org/ns/dcat#theme": [
@@ -569,10 +358,221 @@
             ]
         },
         {
+            "@id": "efficient-use-of-water.csv#attribute/observation-status",
+            "@type": [
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Observation Status"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+                }
+            ]
+        },
+        {
+            "@id": "efficient-use-of-water.csv#component/observation-status",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "efficient-use-of-water.csv#attribute/observation-status"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "efficient-use-of-water.csv#attribute/observation-status"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 6
+                }
+            ]
+        },
+        {
+            "@id": "efficient-use-of-water.csv#structure",
+            "@type": [
+                "http://purl.org/linked-data/cube#DataStructureDefinition",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#component": [
+                {
+                    "@id": "efficient-use-of-water.csv#component/measure-type"
+                },
+                {
+                    "@id": "efficient-use-of-water.csv#component/statistical-geography"
+                },
+                {
+                    "@id": "efficient-use-of-water.csv#component/unit"
+                },
+                {
+                    "@id": "efficient-use-of-water.csv#component/observation-status"
+                },
+                {
+                    "@id": "efficient-use-of-water.csv#component/water-leakage"
+                },
+                {
+                    "@id": "efficient-use-of-water.csv#component/government-year"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "efficient-use-of-water.csv#dimension/government-year"
+                },
+                {
+                    "@id": "efficient-use-of-water.csv#measure/water-leakage"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "efficient-use-of-water.csv#attribute/observation-status"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "efficient-use-of-water.csv#dimension/statistical-geography"
+                }
+            ],
+            "http://purl.org/linked-data/cube#sliceKey": [
+                {
+                    "@id": "efficient-use-of-water.csv#slice/cross-measures"
+                }
+            ]
+        },
+        {
+            "@id": "efficient-use-of-water.csv#slice/cross-measures",
+            "@type": [
+                "http://purl.org/linked-data/cube#SliceKey",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "efficient-use-of-water.csv#dimension/statistical-geography"
+                },
+                {
+                    "@id": "efficient-use-of-water.csv#dimension/government-year"
+                }
+            ]
+        },
+        {
+            "@id": "efficient-use-of-water.csv#csvcubed-build-activity",
+            "@type": [
+                "http://www.w3.org/ns/prov#Activity",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.4"
+                }
+            ]
+        },
+        {
+            "@id": "efficient-use-of-water.csv#component/unit",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": true
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 4
+                }
+            ]
+        },
+        {
+            "@id": "efficient-use-of-water.csv#component/government-year",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "efficient-use-of-water.csv#dimension/government-year"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "efficient-use-of-water.csv#dimension/government-year"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 1
+                }
+            ]
+        },
+        {
+            "@id": "efficient-use-of-water.csv#dimension/government-year",
+            "@type": [
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "government-year.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Government Year"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "efficient-use-of-water.csv#class/government-year"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
+                }
+            ]
+        },
+        {
             "@id": "efficient-use-of-water.csv#dependency/government-year",
             "@type": [
-                "http://rdfs.org/ns/void#Dataset",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -600,9 +600,9 @@
         {
             "@id": "efficient-use-of-water.csv#unit/megalitres-per-day",
             "@type": [
-                "http://qudt.org/schema/qudt/Unit",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://qudt.org/schema/qudt/Unit"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {

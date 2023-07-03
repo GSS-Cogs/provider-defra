@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/economy/environmentalaccounts
           - Keywords: 
-		-- water
-		-- megalitres-per-day
-		-- megalitres
-		-- leakage
 		-- water-leakage
+		-- water
+		-- megalitres
+		-- megalitres-per-day
+		-- leakage
           - Contact Point: None
           - Identifier: Efficient use of water
           - Comment: Water leakage in England, Wales, Scotland and Northern Ireland, measured in megalitres per day
@@ -45,29 +45,29 @@ government-year.csv#code-list Government Year          Period
         - Number of Rows: 80
         - Number of Duplicates: 0
         - First 10 Rows: 
- Period   Country  Observation Marker
-2002-03 E92000001      3152.44    NaN
-2003-04 E92000001      3298.97    NaN
-2004-05 E92000001      3365.29    NaN
-2005-06 E92000001      3347.73    NaN
-2006-07 E92000001      3279.15    NaN
-2007-08 E92000001      3187.28    NaN
-2008-09 E92000001      3102.77    NaN
-2009-10 E92000001      3062.08    NaN
-2010-11 E92000001      3087.77    NaN
-2011-12 E92000001      3041.40    NaN
+ Period Country  Observation Marker
+2002-03 England      3152.44    NaN
+2003-04 England      3298.97    NaN
+2004-05 England      3365.29    NaN
+2005-06 England      3347.73    NaN
+2006-07 England      3279.15    NaN
+2007-08 England      3187.28    NaN
+2008-09 England      3102.77    NaN
+2009-10 England      3062.08    NaN
+2010-11 England      3087.77    NaN
+2011-12 England      3041.40    NaN
         - Last 10 Rows: 
- Period   Country  Observation Marker
-2012-13 N92000002       161.75    NaN
-2013-14 N92000002       167.00    NaN
-2014-15 N92000002       166.00    NaN
-2015-16 N92000002       162.00    NaN
-2016-17 N92000002       163.44    NaN
-2017-18 N92000002       165.00    NaN
-2018-19 N92000002       160.00    NaN
-2019-20 N92000002       161.00    NaN
-2020-21 N92000002       157.71    NaN
-2021-22 N92000002       156.00    NaN
+ Period          Country  Observation Marker
+2012-13 Northern Ireland       161.75    NaN
+2013-14 Northern Ireland       167.00    NaN
+2014-15 Northern Ireland       166.00    NaN
+2015-16 Northern Ireland       162.00    NaN
+2016-17 Northern Ireland       163.44    NaN
+2017-18 Northern Ireland       165.00    NaN
+2018-19 Northern Ireland       160.00    NaN
+2019-20 Northern Ireland       161.00    NaN
+2020-21 Northern Ireland       157.71    NaN
+2021-22 Northern Ireland       156.00    NaN
         
 
 - The data cube has the following value counts:
