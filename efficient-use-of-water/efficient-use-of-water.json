@@ -1,7 +1,9 @@
 {
     "$schema": "https://purl.org/csv-cubed/qube-config/v1",
     "title": "Efficient use of water",
+    "publisher": "https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs",
     "creator": "https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs",
+    "public_contact_point_uri": "mailto:25YEPindicators@defra.gov.uk",
     "summary": "Water leakage in England, Wales, Scotland and Northern Ireland, measured in megalitres per day",
     "description": "Climate change and a growing population will put increasing pressure on our water supplies. Ambitious reductions in water /nconsumption and leakage have a significant role in maintaining secure supplies and protecting the environment. This indicator /nshows changes in the efficient use of water, focussing on leakage. Leakage in England /nare existing metrics reported to The Water Services Regulation Authority (Ofwat) and the Environment Agency.",
     "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
@@ -15,7 +17,8 @@
     "themes": [
         "https://www.ons.gov.uk/economy/environmentalaccounts"
     ],
-    "dataset_issued": "2023-06-20",
+    "dataset_issued": "2023-06-20T09:30:00",
+    "dataset_modified": "2023-07-03T15:00:00",
     "columns": {
         "Period": {
             "label": "Government Year",
