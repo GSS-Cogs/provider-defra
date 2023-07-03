@@ -1,0 +1,43 @@
+{
+    "$schema": "https://purl.org/csv-cubed/qube-config/v1",
+    "title": "Efficient use of water",
+    "creator": "https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs",
+    "summary": "Water leakage in England, Wales, Scotland and Northern Ireland, measured in megalitres per day",
+    "description": "Climate change and a growing population will put increasing pressure on our water supplies. Ambitious reductions in water /nconsumption and leakage have a significant role in maintaining secure supplies and protecting the environment. This indicator /nshows changes in the efficient use of water, focussing on leakage. Leakage in England /nare existing metrics reported to The Water Services Regulation Authority (Ofwat) and the Environment Agency.",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "keywords": [
+        "water",
+        "leakage",
+        "water-leakage",
+        "megalitres",
+        "megalitres-per-day"
+    ],
+    "themes": [
+        "https://www.ons.gov.uk/economy/environmentalaccounts"
+    ],
+    "dataset_issued": "2023-06-20",
+    "columns": {
+        "Period": {
+            "label": "Government Year",
+            "from_template": "government-year"
+        },
+        "Country": {
+            "from_template": "statistical-geography"   
+        },
+        "Observation": {
+            "type": "observations",
+            "data_type": "decimal",
+            "measure": {
+                "label": "Water leakage",
+                "definition_uri": "http://gss-data.org.uk/def/measure/water-leakage"
+            },
+            "unit": {
+                "label": "Megalitres per day",
+                "definition_uri": "http://gss-data.org.uk/def/concept/measurement-units/megalitres-per-day"
+            }
+        },
+        "Marker": {
+           "from_template": "observation-status"
+        }
+    }
+}
