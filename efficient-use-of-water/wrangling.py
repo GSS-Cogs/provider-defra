@@ -15,12 +15,12 @@ def wrangle(input: Path(), output: Path()) -> None:
     df['Country'] = df['Country'].str.rstrip()
     df.replace({'Country': {'N.Ireland': 'Northern Ireland'}}, inplace=True)
     
-    df['Country'] = df['Country'].apply(lambda x: 'K02000001' if 'UK' in x
-                                        else ('N92000002' if 'Northern Ireland' in x
-                                              else ('E92000001' if 'England' in x
-                                                    else ('S92000003' if 'Scotland' in x
-                                                          else ('W92000004' if 'Wales' in x else x)))))
-    
+    # df['Country'] = df['Country'].apply(lambda x: 'K02000001' if 'UK' in x
+    #                                     else ('N92000002' if 'Northern Ireland' in x
+    #                                           else ('E92000001' if 'England' in x
+    #                                                 else ('S92000003' if 'Scotland' in x
+    #                                                       else ('W92000004' if 'Wales' in x else x)))))
+        
     df['Marker'] = df.apply(lambda x: 'not-available' if np.isnan(x['Observation']) else '', axis=1)
     # df['Observation'] = df.apply(lambda x: None if np.isnan(x['Observation']) else x['Observation'], axis=1)
     
