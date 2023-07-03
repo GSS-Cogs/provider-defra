@@ -1,0 +1,77 @@
+
+- This file is a data cube.
+
+
+        - The data cube has the following catalog metadata:
+          - Title: Efficient use of water
+          - Label: Efficient use of water
+          - Issued: 2023-06-20T00:00:00
+          - Modified: 2023-06-20T00:00:00
+          - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+          - Creator: https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs
+          - Publisher: None
+          - Landing Pages: None
+          - Themes: 
+		-- https://www.ons.gov.uk/economy/environmentalaccounts
+          - Keywords: 
+		-- water-leakage
+		-- water
+		-- megalitres
+		-- megalitres-per-day
+		-- leakage
+          - Contact Point: None
+          - Identifier: Efficient use of water
+          - Comment: Water leakage in England, Wales, Scotland and Northern Ireland, measured in megalitres per day
+          - Description: Climate change and a growing population will put increasing pressure on our water supplies. Ambitious reductions in water /nconsumption and leakage have a significant role in maintaining secure supplies and protecting the environment. This indicator /nshows changes in the efficient use of water, focussing on leakage. Leakage in England /nare existing metrics reported to The Water Services Regulation Authority (Ofwat) and the Environment Agency.
+        
+
+ - The data cube has the following column component information: 
+    - Dataset Label: Efficient use of water
+    - Columns: 
+          Title         Type  Required                                               Property URL Observations Column Titles
+         Period    Dimension      True       efficient-use-of-water.csv#dimension/government-year                Observation
+        Country    Dimension      True efficient-use-of-water.csv#dimension/statistical-geography                Observation
+    Observation Observations     False           efficient-use-of-water.csv#measure/water-leakage                Observation
+         Marker    Attribute     False    efficient-use-of-water.csv#attribute/observation-status                Observation
+    - Columns where suppress output is true: None
+
+- The data cube has the following code list information:
+        - Number of Code Lists: 1
+        - Code Lists:
+                    Code List Code List Label Columns Used In
+government-year.csv#code-list Government Year          Period
+
+- The data cube has the following dataset information:
+        - Number of Rows: 80
+        - Number of Duplicates: 0
+        - First 10 Rows: 
+ Period   Country  Observation Marker
+2002-03 E92000001      3152.44    NaN
+2003-04 E92000001      3298.97    NaN
+2004-05 E92000001      3365.29    NaN
+2005-06 E92000001      3347.73    NaN
+2006-07 E92000001      3279.15    NaN
+2007-08 E92000001      3187.28    NaN
+2008-09 E92000001      3102.77    NaN
+2009-10 E92000001      3062.08    NaN
+2010-11 E92000001      3087.77    NaN
+2011-12 E92000001      3041.40    NaN
+        - Last 10 Rows: 
+ Period   Country  Observation Marker
+2012-13 N92000002       161.75    NaN
+2013-14 N92000002       167.00    NaN
+2014-15 N92000002       166.00    NaN
+2015-16 N92000002       162.00    NaN
+2016-17 N92000002       163.44    NaN
+2017-18 N92000002       165.00    NaN
+2018-19 N92000002       160.00    NaN
+2019-20 N92000002       161.00    NaN
+2020-21 N92000002       157.71    NaN
+2021-22 N92000002       156.00    NaN
+        
+
+- The data cube has the following value counts:
+        - Value counts broken-down by measure and unit (of measure):
+      Measure               Unit  Count
+Water leakage Megalitres per day     80
+        
