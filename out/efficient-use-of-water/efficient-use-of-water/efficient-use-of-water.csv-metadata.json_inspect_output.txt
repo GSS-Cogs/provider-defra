@@ -6,7 +6,7 @@
           - Title: Efficient use of water
           - Label: Efficient use of water
           - Issued: 2023-06-20T09:30:00
-          - Modified: 2023-07-03T15:00:00
+          - Modified: 2023-07-04T11:00:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs
           - Publisher: https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs
@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/economy/environmentalaccounts
           - Keywords: 
-		-- water-leakage
-		-- water
-		-- megalitres
 		-- megalitres-per-day
+		-- water-leakage
 		-- leakage
+		-- megalitres
+		-- water
           - Contact Point: None
           - Identifier: Efficient use of water
           - Comment: Water leakage in England, Wales, Scotland and Northern Ireland, measured in megalitres per day
@@ -36,38 +36,39 @@
     - Columns where suppress output is true: None
 
 - The data cube has the following code list information:
-        - Number of Code Lists: 1
+        - Number of Code Lists: 2
         - Code Lists:
-                    Code List Code List Label Columns Used In
-government-year.csv#code-list Government Year          Period
+                                                      Code List                                   Code List Label Columns Used In
+                                  government-year.csv#code-list                                   Government Year          Period
+local-country-codelist-for-efficient-use-of-water.csv#code-list Local country codelist for Efficient use of water         Country
 
 - The data cube has the following dataset information:
         - Number of Rows: 80
         - Number of Duplicates: 0
         - First 10 Rows: 
  Period Country  Observation Marker
-2002-03 England      3152.44    NaN
-2003-04 England      3298.97    NaN
-2004-05 England      3365.29    NaN
-2005-06 England      3347.73    NaN
-2006-07 England      3279.15    NaN
-2007-08 England      3187.28    NaN
-2008-09 England      3102.77    NaN
-2009-10 England      3062.08    NaN
-2010-11 England      3087.77    NaN
-2011-12 England      3041.40    NaN
+2002-03 england      3152.44    NaN
+2003-04 england      3298.97    NaN
+2004-05 england      3365.29    NaN
+2005-06 england      3347.73    NaN
+2006-07 england      3279.15    NaN
+2007-08 england      3187.28    NaN
+2008-09 england      3102.77    NaN
+2009-10 england      3062.08    NaN
+2010-11 england      3087.77    NaN
+2011-12 england      3041.40    NaN
         - Last 10 Rows: 
  Period          Country  Observation Marker
-2012-13 Northern Ireland       161.75    NaN
-2013-14 Northern Ireland       167.00    NaN
-2014-15 Northern Ireland       166.00    NaN
-2015-16 Northern Ireland       162.00    NaN
-2016-17 Northern Ireland       163.44    NaN
-2017-18 Northern Ireland       165.00    NaN
-2018-19 Northern Ireland       160.00    NaN
-2019-20 Northern Ireland       161.00    NaN
-2020-21 Northern Ireland       157.71    NaN
-2021-22 Northern Ireland       156.00    NaN
+2012-13 northern-ireland       161.75    NaN
+2013-14 northern-ireland       167.00    NaN
+2014-15 northern-ireland       166.00    NaN
+2015-16 northern-ireland       162.00    NaN
+2016-17 northern-ireland       163.44    NaN
+2017-18 northern-ireland       165.00    NaN
+2018-19 northern-ireland       160.00    NaN
+2019-20 northern-ireland       161.00    NaN
+2020-21 northern-ireland       157.71    NaN
+2021-22 northern-ireland       156.00    NaN
         
 
 - The data cube has the following value counts:
