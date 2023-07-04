@@ -1,0 +1,44 @@
+
+- This file is a code list.
+
+
+        - The code list has the following catalog metadata:
+          - Title: Local country codelist for Efficient use of water
+          - Label: Local country codelist for Efficient use of water
+          - Issued: 2023-07-04T11:06:32.239042
+          - Modified: 2023-07-04T11:06:32.239042
+          - License: https://creativecommons.org/licenses/by/4.0/
+          - Creator: https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs
+          - Publisher: https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs
+          - Landing Pages: None
+          - Themes: None
+          - Keywords: None
+          - Contact Point: None
+          - Identifier: Local country codelist for Efficient use of water
+          - Comment: Local country codelist
+          - Description: Local hierarchical country codelist
+        
+
+- The code list has the following dataset information:
+        - Number of Concepts: 5
+        - Number of Duplicates: 0
+        - Concepts: 
+  Uri Identifier            Label         Notation Parent Uri Identifier  Sort Priority  Description                                             Original Concept URI
+  united-kingdom   United Kingdom   United Kingdom                   NaN              0          NaN http://statistics.data.gov.uk/id/statistical-geography/K02000001
+         england          England          England        united-kingdom              0          NaN http://statistics.data.gov.uk/id/statistical-geography/E92000001
+northern-ireland Northern Ireland Northern Ireland        united-kingdom              1          NaN http://statistics.data.gov.uk/id/statistical-geography/N92000002
+        scotland         Scotland         Scotland        united-kingdom              2          NaN http://statistics.data.gov.uk/id/statistical-geography/S92000003
+           wales            Wales            Wales        united-kingdom              3          NaN http://statistics.data.gov.uk/id/statistical-geography/W92000004
+        
+
+- The code list has the following concepts information:
+        - Concepts hierarchy depth: 2
+        - Concepts hierarchy:
+root
+└── United Kingdom
+    ├── England
+    ├── Northern Ireland
+    ├── Scotland
+    └── Wales
+
+        
