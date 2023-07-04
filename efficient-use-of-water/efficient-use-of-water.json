@@ -26,37 +26,29 @@
         "Country": {
             "type": "dimension",
             "label": "Statistical Geography",
-            "from_existing": "http://purl.org/linked-data/sdmx/2009/dimension#refArea",
             "code_list": {
                 "title": "Country",
                 "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
-                "concepts": [
+                "concepts": [  
                     {
-                        "label": "United Kingdom",
-                        "notation": "United Kingdom",
-                        "same_as": "http://statistics.data.gov.uk/id/statistical-geography/K02000001",
-                        "children": [
-                            {
-                                "label": "England",
-                                "notation": "England",
-                                "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E92000001"
-                            },
-                            {
-                                "label": "Northern Ireland",
-                                "notation": "Northern Ireland",
-                                "same_as": "http://statistics.data.gov.uk/id/statistical-geography/N92000002"
-                            },
-                            {
-                                "label": "Scotland",
-                                "notation": "Scotland",
-                                "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S92000003"
-                            },
-                            {
-                                "label": "Wales",
-                                "notation": "Wales",
-                                "same_as": "http://statistics.data.gov.uk/id/statistical-geography/W92000004"
-                            }
-                        ]
+                        "label": "England",
+                        "notation": "England",
+                        "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E92000001"
+                    },
+                    {
+                        "label": "Northern Ireland",
+                        "notation": "Northern Ireland",
+                        "same_as": "http://statistics.data.gov.uk/id/statistical-geography/N92000002"
+                    },
+                    {
+                        "label": "Scotland",
+                        "notation": "Scotland",
+                        "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S92000003"
+                    },
+                    {
+                        "label": "Wales",
+                        "notation": "Wales",
+                        "same_as": "http://statistics.data.gov.uk/id/statistical-geography/W92000004"
                     }
                 ]
             }
