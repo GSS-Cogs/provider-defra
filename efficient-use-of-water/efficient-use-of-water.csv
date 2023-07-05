@@ -19,12 +19,12 @@ Period,Country,Observation,Marker
 2019-20,England,2896.68,
 2020-21,England,2850.59,
 2021-22,England,2785.35,
-2002-03,Scotland,,not-available
-2003-04,Scotland,,not-available
-2004-05,Scotland,,not-available
-2005-06,Scotland,,not-available
-2006-07,Scotland,,not-available
-2007-08,Scotland,,not-available
+2002-03,Scotland,,not available
+2003-04,Scotland,,not available
+2004-05,Scotland,,not available
+2005-06,Scotland,,not available
+2006-07,Scotland,,not available
+2007-08,Scotland,,not available
 2008-09,Scotland,869.0,
 2009-10,Scotland,783.0,
 2010-11,Scotland,757.0,
@@ -59,9 +59,9 @@ Period,Country,Observation,Marker
 2019-20,Wales,167.95,
 2020-21,Wales,163.62,
 2021-22,Wales,157.41,
-2002-03,Northern Ireland,,not-available
-2003-04,Northern Ireland,,not-available
-2004-05,Northern Ireland,,not-available
+2002-03,Northern Ireland,,not available
+2003-04,Northern Ireland,,not available
+2004-05,Northern Ireland,,not available
 2005-06,Northern Ireland,177.77,
 2006-07,Northern Ireland,168.06,
 2007-08,Northern Ireland,156.52,
