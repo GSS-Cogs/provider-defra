@@ -6,7 +6,7 @@
           - Title: Efficient use of water
           - Label: Efficient use of water
           - Issued: 2023-06-20T09:30:00
-          - Modified: 2023-07-05T11:00:00
+          - Modified: 2023-07-05T12:00:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs
           - Publisher: https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs
@@ -15,10 +15,10 @@
 		-- https://www.ons.gov.uk/economy/environmentalaccounts
           - Keywords: 
 		-- megalitres
-		-- water-leakage
+		-- megalitres-per-day
 		-- water
 		-- leakage
-		-- megalitres-per-day
+		-- water-leakage
           - Contact Point: None
           - Identifier: Efficient use of water
           - Comment: Water leakage in England, Wales, Scotland and Northern Ireland, measured in megalitres per day
