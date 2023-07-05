@@ -21,7 +21,7 @@ def wrangle(input: Path(), output: Path()) -> None:
     #                                                 else ('S92000003' if 'Scotland' in x
     #                                                       else ('W92000004' if 'Wales' in x else x)))))
         
-    df['Marker'] = df.apply(lambda x: 'not-available' if np.isnan(x['Observation']) else '', axis=1)
+    df['Marker'] = df.apply(lambda x: 'not available' if np.isnan(x['Observation']) else '', axis=1)
     # df['Observation'] = df.apply(lambda x: None if np.isnan(x['Observation']) else x['Observation'], axis=1)
     
     df.to_csv(output, index=False)
