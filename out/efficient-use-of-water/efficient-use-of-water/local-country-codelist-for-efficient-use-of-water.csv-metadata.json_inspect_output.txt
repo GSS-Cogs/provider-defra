@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: Local country codelist for Efficient use of water
           - Label: Local country codelist for Efficient use of water
-          - Issued: 2023-06-20T09:30:00
-          - Modified: 2023-07-05T12:00:00
+          - Issued: 2023-07-10T15:28:56.959945
+          - Modified: 2023-07-10T15:28:56.959945
           - License: https://creativecommons.org/licenses/by/4.0/
           - Creator: https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs
           - Publisher: https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs
