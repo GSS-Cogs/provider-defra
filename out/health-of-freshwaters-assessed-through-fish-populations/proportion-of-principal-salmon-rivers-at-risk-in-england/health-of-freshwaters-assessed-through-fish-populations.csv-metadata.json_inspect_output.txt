@@ -14,74 +14,73 @@
           - Themes: 
 		-- https://www.ons.gov.uk/economy/environmentalaccounts
           - Keywords: 
+		-- fish-populations
 		-- salmon-stocks-status
+		-- freshwaters
 		-- risk
 		-- principal-salmom-rivers
-		-- fish-populations
-		-- freshwaters
           - Contact Point: None
           - Identifier: Health of freshwaters assessed through fish populations
           - Comment: The proportion of principal salmon rivers at risk in England
-          - Description: This indicator tracks changes in populations of native freshwater fish in England. Fish are a good indicator of
+          - Description: This dataset tracks changes in populations of native freshwater fish in England. Fish are a good indicator of
 		healthy freshwater environments, responding to changes in water quality (including temperature) and quantity,
 		as well as the quality of river habitats, necessary to sustain healthy populations and enable migration throughout
 		rivers to allow fish to complete their life cycles. Fish also provide an important recreational and economic benefit
 		from freshwaters.  
-		This indicator is not available for reporting in 2023 in a finalised form. An interim indicator is presented here that
-		shows the proportion of principal salmon rivers at risk in England.  
-		This dataset is sourced from annually published national salmon stock data. For this assessment, each river's
+		This interim indicator shows the proportion of principal salmon rivers at risk in England.
+		The dataset is sourced from annually published national [salmon stock data](https://www.gov.uk/government/publications/salmonid-and-freshwater-fisheries-statistics-2021). For this assessment, each river's
 		salmon stocks are placed into one of 4 categories: at risk; probably at risk; probably not at risk; and not at risk.
-		These categories reflect the level of resilience of salmon stocks in each river in relation to biological reference
-		points.
+		These categories reflect the level of resilience of salmon stocks in each river in relation to biological
+		reference points.
         
 
  - The data cube has the following column component information: 
     - Dataset Label: Health of freshwaters assessed through fish populations
     - Columns: 
-                     Title         Type  Required                                                                                                                 Property URL Observations Column Titles
-                      Year    Dimension      True                                                   health-of-freshwaters-assessed-through-fish-populations.csv#dimension/year                Observation
-    Status of salmon river    Dimension      True                                 health-of-freshwaters-assessed-through-fish-populations.csv#dimension/status-of-salmon-river                Observation
-               Observation Observations      True health-of-freshwaters-assessed-through-fish-populations.csv#measure/proportion-of-principal-salmon-rivers-in-status-category                Observation
+                      Title         Type  Required                                                                                                               Property URL Observations Column Titles
+                       Year    Dimension      True                                                 health-of-freshwaters-assessed-through-fish-populations.csv#dimension/year                Observation
+    Status of salmon rivers    Dimension      True                              health-of-freshwaters-assessed-through-fish-populations.csv#dimension/status-of-salmon-rivers                Observation
+                Observation Observations      True health-of-freshwaters-assessed-through-fish-populations.csv#measure/proportion-of-principal-salmon-rivers-in-risk-category                Observation
     - Columns where suppress output is true: None
 
 - The data cube has the following code list information:
         - Number of Code Lists: 2
         - Code Lists:
-                           Code List        Code List Label        Columns Used In
-status-of-salmon-river.csv#code-list Status of salmon river Status of salmon river
-                  year.csv#code-list                   Year                   Year
+                            Code List         Code List Label         Columns Used In
+status-of-salmon-rivers.csv#code-list Status of salmon rivers Status of salmon rivers
+                   year.csv#code-list                    Year                    Year
 
 - The data cube has the following dataset information:
         - Number of Rows: 64
         - Number of Duplicates: 0
         - First 10 Rows: 
- Year Status of salmon river  Observation
- 2006            not-at-risk        21.43
- 2006   probably-not-at-risk        19.05
- 2006       probably-at-risk        21.43
- 2006                at-risk        38.10
- 2007            not-at-risk        21.43
- 2007   probably-not-at-risk        21.43
- 2007       probably-at-risk        16.67
- 2007                at-risk        40.48
- 2008            not-at-risk        23.81
- 2008   probably-not-at-risk        33.33
+ Year Status of salmon rivers  Observation
+ 2006             not-at-risk        21.43
+ 2006    probably-not-at-risk        19.05
+ 2006        probably-at-risk        21.43
+ 2006                 at-risk        38.10
+ 2007             not-at-risk        21.43
+ 2007    probably-not-at-risk        21.43
+ 2007        probably-at-risk        16.67
+ 2007                 at-risk        40.48
+ 2008             not-at-risk        23.81
+ 2008    probably-not-at-risk        33.33
         - Last 10 Rows: 
- Year Status of salmon river  Observation
- 2019       probably-at-risk         36.0
- 2019                at-risk         57.0
- 2020            not-at-risk          2.0
- 2020   probably-not-at-risk         10.0
- 2020       probably-at-risk         40.0
- 2020                at-risk         48.0
- 2021            not-at-risk          2.0
- 2021   probably-not-at-risk         10.0
- 2021       probably-at-risk         14.0
- 2021                at-risk         74.0
+ Year Status of salmon rivers  Observation
+ 2019        probably-at-risk         36.0
+ 2019                 at-risk         57.0
+ 2020             not-at-risk          2.0
+ 2020    probably-not-at-risk         10.0
+ 2020        probably-at-risk         40.0
+ 2020                 at-risk         48.0
+ 2021             not-at-risk          2.0
+ 2021    probably-not-at-risk         10.0
+ 2021        probably-at-risk         14.0
+ 2021                 at-risk         74.0
         
 
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
-                                                 Measure    Unit  Count
-Proportion of principal salmon rivers in status category Percent     64
+                                               Measure    Unit  Count
+Proportion of principal salmon rivers in risk category Percent     64
         
