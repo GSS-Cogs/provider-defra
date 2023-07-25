@@ -1,0 +1,41 @@
+{
+    "$schema": "https://purl.org/csv-cubed/qube-config/v1",
+    "title": "Health of freshwaters assessed through fish populations",
+    "publisher": "https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs",
+    "creator": "https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs",
+    "summary": "Overall percentage change of salmon stocks across principal salmon rivers in England",
+    "description": "",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "keywords": [
+        "salmon",
+        "salmon-stocks",
+        "salmon-rivers",
+        "salmon-stocks-status",
+        "fish-populations"
+    ],
+    "themes": [
+        "https://www.ons.gov.uk/economy/environmentalaccounts"
+    ],
+    "dataset_issued": "2023-07-20",
+    "columns": {
+        "Year": {
+            "type": "dimension",
+            "from_template": "year"
+        },
+        "Status of salmon river":{
+            "type": "dimension"
+        },
+        "Observation": {
+            "type": "observations",
+            "data_type": "decimal",
+            "measure": {
+                "label": "Proportion of principal salmon rivers",
+                "from_existing": "https://purl.org/csv-cubed/resources/measures#portion"
+            },
+            "unit": {
+                "label": "Percent",
+                "from_existing": "http://qudt.org/vocab/unit/PERCENT"
+            }
+        }
+    }
+}
