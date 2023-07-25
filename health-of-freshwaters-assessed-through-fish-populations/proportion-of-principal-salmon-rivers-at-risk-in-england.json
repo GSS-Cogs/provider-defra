@@ -1,0 +1,41 @@
+{
+    "$schema": "https://purl.org/csv-cubed/qube-config/v1",
+    "title": "Health of freshwaters assessed through fish populations",
+    "publisher": "https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs",
+    "creator": "https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs",
+    "summary": "Overall percentage change of salmon stocks across principal salmon rivers in England",
+    "description": "This indicator tracks changes in populations of native freshwater fish in England. Fish are a good indicator of\nhealthy freshwater environments, responding to changes in water quality (including temperature) and quantity,\nas well as the quality of river habitats, necessary to sustain healthy populations and enable migration throughout\nrivers to allow fish to complete their life cycles. Fish also provide an important recreational and economic benefit\nfrom freshwaters.  \nThis indicator is not available for reporting in 2023 in a finalised form. An interim indicator is presented here that\nshows the proportion of principal salmon rivers at risk in England.  \nThis dataset is sourced from annually published national salmon stock data. For this assessment, each river's\nsalmon stocks are placed into one of 4 categories: at risk; probably at risk; probably not at risk; and not at risk.\nThese categories reflect the level of resilience of salmon stocks in each river in relation to biological reference\npoints.",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "keywords": [
+        "salmon",
+        "salmon-stocks",
+        "salmon-rivers",
+        "salmon-stocks-status",
+        "fish-populations"
+    ],
+    "themes": [
+        "https://www.ons.gov.uk/economy/environmentalaccounts"
+    ],
+    "dataset_issued": "2023-07-20",
+    "columns": {
+        "Year": {
+            "type": "dimension",
+            "from_template": "year"
+        },
+        "Status of salmon river":{
+            "type": "dimension"
+        },
+        "Observation": {
+            "type": "observations",
+            "data_type": "decimal",
+            "measure": {
+                "label": "Proportion of principal salmon rivers in status category",
+                "from_existing": "https://purl.org/csv-cubed/resources/measures#portion"
+            },
+            "unit": {
+                "label": "Percent",
+                "from_existing": "http://qudt.org/vocab/unit/PERCENT"
+            }
+        }
+    }
+}
