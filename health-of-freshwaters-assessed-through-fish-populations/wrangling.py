@@ -9,11 +9,10 @@ from pathlib import Path
 def wrangle(input: Path(), output: Path()) -> None:
 
     df = pd.read_csv(input, na_values="na")
-    
-    df.rename(columns={'year': 'Year','status': 'Status of salmon river','percentage': 'Observation'})
-
+    df.rename(columns={'year': 'Year', 'status': 'Status of salmon rivers', 'percentage': 'Observation'}, inplace=True)
     df['Observation'] = df['Observation'].astype(float).round(2)
 
+    df = df[['Year', 'Status of salmon rivers', 'Observation']]
     df.to_csv(output, index=False)
     return
 
