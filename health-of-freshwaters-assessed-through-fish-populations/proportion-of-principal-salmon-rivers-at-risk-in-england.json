@@ -29,7 +29,7 @@
             "type": "observations",
             "data_type": "decimal",
             "measure": {
-                "label": "Proportion of principal salmon rivers",
+                "label": "Proportion of principal salmon rivers in status category",
                 "from_existing": "https://purl.org/csv-cubed/resources/measures#portion"
             },
             "unit": {
