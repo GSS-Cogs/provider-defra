@@ -125,20 +125,36 @@
     ],
     "rdfs:seeAlso": [
         {
-            "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#class/status-of-salmon-river",
+            "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#component/status-of-salmon-river",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#dimension/status-of-salmon-river"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#dimension/status-of-salmon-river"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 2
+                }
             ]
         },
         {
             "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#dimension/status-of-salmon-river",
             "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#CodedProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty"
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
@@ -154,6 +170,22 @@
             "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
                     "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#class/status-of-salmon-river"
+                }
+            ]
+        },
+        {
+            "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#slice/cross-measures",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#SliceKey",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#dimension/status-of-salmon-river"
+                },
+                {
+                    "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#dimension/year"
                 }
             ]
         },
@@ -186,26 +218,41 @@
             ]
         },
         {
-            "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#component/proportion-of-principal-salmon-rivers-in-status-category",
+            "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#dimension/year",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
-            "http://purl.org/linked-data/cube#componentProperty": [
+            "http://purl.org/linked-data/cube#codeList": [
                 {
-                    "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#measure/proportion-of-principal-salmon-rivers-in-status-category"
+                    "@id": "year.csv#code-list"
                 }
             ],
-            "http://purl.org/linked-data/cube#measure": [
+            "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
-                    "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#measure/proportion-of-principal-salmon-rivers-in-status-category"
+                    "@language": "en",
+                    "@value": "Year"
                 }
             ],
-            "http://purl.org/linked-data/cube#order": [
+            "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
-                    "@value": 5
+                    "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#class/year"
                 }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
+                }
+            ]
+        },
+        {
+            "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#class/status-of-salmon-river",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ]
         },
         {
@@ -229,6 +276,13 @@
                 {
                     "@value": 1
                 }
+            ]
+        },
+        {
+            "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#class/year",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ]
         },
         {
@@ -263,12 +317,6 @@
             ],
             "http://purl.org/linked-data/cube#component": [
                 {
-                    "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#component/proportion-of-principal-salmon-rivers-in-status-category"
-                },
-                {
-                    "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#component/measure-type"
-                },
-                {
                     "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#component/year"
                 },
                 {
@@ -276,6 +324,12 @@
                 },
                 {
                     "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#component/status-of-salmon-river"
+                },
+                {
+                    "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#component/proportion-of-principal-salmon-rivers-in-status-category"
+                },
+                {
+                    "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#component/measure-type"
                 }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
@@ -283,16 +337,16 @@
                     "@id": "http://purl.org/linked-data/cube#measureType"
                 },
                 {
-                    "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#dimension/status-of-salmon-river"
-                },
-                {
-                    "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#dimension/year"
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
                 },
                 {
                     "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#measure/proportion-of-principal-salmon-rivers-in-status-category"
                 },
                 {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                    "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#dimension/year"
+                },
+                {
+                    "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#dimension/status-of-salmon-river"
                 }
             ],
             "http://purl.org/linked-data/cube#sliceKey": [
@@ -302,34 +356,46 @@
             ]
         },
         {
-            "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#class/year",
+            "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#csvcubed-build-activity",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/ns/prov#Activity",
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.6"
+                }
             ]
         },
         {
-            "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#slice/cross-measures",
+            "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#component/proportion-of-principal-salmon-rivers-in-status-category",
             "@type": [
-                "http://purl.org/linked-data/cube#SliceKey",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://purl.org/linked-data/cube#ComponentSet",
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#dimension/status-of-salmon-river"
-                },
+                    "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#measure/proportion-of-principal-salmon-rivers-in-status-category"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
                 {
-                    "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#dimension/year"
+                    "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#measure/proportion-of-principal-salmon-rivers-in-status-category"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 5
                 }
             ]
         },
         {
             "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#measure/proportion-of-principal-salmon-rivers-in-status-category",
             "@type": [
-                "http://purl.org/linked-data/cube#MeasureProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#MeasureProperty",
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
@@ -350,44 +416,13 @@
             ]
         },
         {
-            "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#dimension/year",
-            "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "year.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Year"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#class/year"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
-                }
-            ]
-        },
-        {
             "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#dataset",
             "@type": [
-                "http://www.w3.org/ns/dcat#Resource",
                 "http://purl.org/linked-data/cube#Attachable",
+                "http://purl.org/linked-data/cube#DataSet",
+                "http://www.w3.org/ns/dcat#Resource",
                 "http://www.w3.org/ns/dcat#Dataset",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#DataSet"
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -408,7 +443,7 @@
             "http://purl.org/dc/terms/issued": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-07-20T00:00:00"
+                    "@value": "2023-07-20T09:30:00"
                 }
             ],
             "http://purl.org/dc/terms/license": [
@@ -419,7 +454,7 @@
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-07-20T00:00:00"
+                    "@value": "2023-07-20T09:30:00"
                 }
             ],
             "http://purl.org/dc/terms/publisher": [
@@ -441,7 +476,7 @@
             "http://www.w3.org/2000/01/rdf-schema#comment": [
                 {
                     "@language": "en",
-                    "@value": "Overall percentage change of salmon stocks across principal salmon rivers in England"
+                    "@value": "The proportion of principal salmon rivers at risk in England"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
@@ -453,7 +488,11 @@
             "http://www.w3.org/ns/dcat#keyword": [
                 {
                     "@language": "en",
-                    "@value": "salmon"
+                    "@value": "freshwaters"
+                },
+                {
+                    "@language": "en",
+                    "@value": "principal-salmom-rivers"
                 },
                 {
                     "@language": "en",
@@ -461,15 +500,11 @@
                 },
                 {
                     "@language": "en",
-                    "@value": "salmon-rivers"
-                },
-                {
-                    "@language": "en",
-                    "@value": "salmon-stocks"
-                },
-                {
-                    "@language": "en",
                     "@value": "salmon-stocks-status"
+                },
+                {
+                    "@language": "en",
+                    "@value": "risk"
                 }
             ],
             "http://www.w3.org/ns/dcat#theme": [
@@ -480,41 +515,6 @@
             "http://www.w3.org/ns/prov#wasGeneratedBy": [
                 {
                     "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#csvcubed-build-activity"
-                }
-            ]
-        },
-        {
-            "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#component/status-of-salmon-river",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#dimension/status-of-salmon-river"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#dimension/status-of-salmon-river"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 2
-                }
-            ]
-        },
-        {
-            "@id": "health-of-freshwaters-assessed-through-fish-populations.csv#csvcubed-build-activity",
-            "@type": [
-                "http://www.w3.org/ns/prov#Activity",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://www.w3.org/ns/prov#used": [
-                {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.6"
                 }
             ]
         },
