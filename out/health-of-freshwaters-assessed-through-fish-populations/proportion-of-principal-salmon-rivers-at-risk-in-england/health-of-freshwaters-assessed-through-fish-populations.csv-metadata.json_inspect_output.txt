@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Health of freshwaters assessed through fish populations
           - Label: Health of freshwaters assessed through fish populations
-          - Issued: 2023-07-20T00:00:00
-          - Modified: 2023-07-20T00:00:00
+          - Issued: 2023-07-20T09:30:00
+          - Modified: 2023-07-20T09:30:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs
           - Publisher: https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs
@@ -14,14 +14,14 @@
           - Themes: 
 		-- https://www.ons.gov.uk/economy/environmentalaccounts
           - Keywords: 
-		-- salmon
-		-- salmon-rivers
-		-- salmon-stocks
-		-- fish-populations
 		-- salmon-stocks-status
+		-- risk
+		-- principal-salmom-rivers
+		-- fish-populations
+		-- freshwaters
           - Contact Point: None
           - Identifier: Health of freshwaters assessed through fish populations
-          - Comment: Overall percentage change of salmon stocks across principal salmon rivers in England
+          - Comment: The proportion of principal salmon rivers at risk in England
           - Description: This indicator tracks changes in populations of native freshwater fish in England. Fish are a good indicator of
 		healthy freshwater environments, responding to changes in water quality (including temperature) and quantity,
 		as well as the quality of river habitats, necessary to sustain healthy populations and enable migration throughout
