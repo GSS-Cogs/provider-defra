@@ -3,16 +3,15 @@
     "title": "Productive seas fish and shellfish stocks fished sustainably",
     "publisher": "https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs",
     "creator": "https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs",
-    "summary": "The proportion of stocks fished sustainably in both the long term and in recent years",
+    "summary": "Proportion of commercial fish and shellfish stocks that are within safe biological limits and fished sustainably",
     "description": "This dataset tracks changes in the proportion of commercial fish and shellfish stocks that are within safe biological limits and\nfished sustainably. The indicator is derived from assessments of individual stocks. Where available, the assessment of stocks against their\nMaximum Sustainable Yield (MSY) will be incorporated into the overall indicator. The indicator is linked to UK Marine Strategy\nDescriptor 3 (Commercial Fish and Shellfish) and the Convention on Biological Diversity sustainable fisheries indicators and\nis derived from International Council for the Exploration of the Sea (ICES) and national stock assessments.  \nThis interim indicator shows the proportion of stocks of UK interest fished at or below the level capable of producing MSY (FMSY); and\nthe proportion of stocks with spawning stock biomass (SSB) above the level capable of producing MSY (MSY Btrigger).  \nThe assessments used for this interim indicator have been reported under the [UK Marine Strategy Part One (2019)] https://www.gov.uk/government/publications/marine-strategy-part-one-uk-updated-assessment-and-good-environmental-status)\nusing data from 1990 to 2015 for FMSY and from 1990 to 2016 for MSY Btrigger.\nData on [commercially exploited fish and shellfish] (https://moat.cefas.co.uk/pressures-from-human-activities/commercial-fish-and-shellfish),\nanalytical methods and assessment are available. Data are also published annually in the [UK Biodiversity Indicator B2 - Sustainable fisheries] (https://jncc.gov.uk/our-work/ukbi-b2-sustainable-fisheries).",
     "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
     "keywords": [
-        "fished",
+        "fish",
         "commercial-fish",
         "shellfish-stocks",
         "fished-sustainably",
-        "marine-fish",
-        "united-kingdom"
+        "marine-fish"
     ],
     "themes": [
         "https://www.ons.gov.uk/economy/environmentalaccounts"
