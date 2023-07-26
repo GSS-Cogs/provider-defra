@@ -9,7 +9,6 @@ from pathlib import Path
 def wrangle(input: Path(), output: Path()) -> None:
     
     df = pd.read_csv(input, na_values="na")
-
     df['Value'] = df['Value'].astype(float).round(2)
 
     df.to_csv(output, index=False)
