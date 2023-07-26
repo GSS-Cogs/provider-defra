@@ -26,7 +26,17 @@
             "type": "dimension"
         },
         "Measure": {
-            "type": "measures"
+            "type": "measures",
+            "values" : [
+                {
+                   "label": "Proportion of fish stocks exploited with respect to FMSY", 
+                    "from_existing": "https://purl.org/csv-cubed/resources/measures#portion"
+                },
+                {
+                    "label": "Proportion of fish stocks with biomass with respect to MSY Btrigger and Blim",
+                    "from_existing": "https://purl.org/csv-cubed/resources/measures#portion"
+                }
+            ]
         },
         "Value": {
             "type": "observations",
