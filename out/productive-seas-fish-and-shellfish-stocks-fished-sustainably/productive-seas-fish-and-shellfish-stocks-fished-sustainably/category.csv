@@ -1,0 +1,8 @@
+Uri Identifier,Label,Notation,Parent Uri Identifier,Sort Priority,Description
+percentage-above-fmsy,Percentage above FMSY,percentage-above-fmsy,,0,
+percentage-below-msybtrigger-and-below-blim-where-available,Percentage below MSYBtrigger and below Blim (where available),percentage-below-msybtrigger-and-below-blim-where-available,,1,
+percentage-greater-than-or-equal-to-msy-btrigger,Percentage greater than or equal to MSY Btrigger,percentage-greater-than-or-equal-to-msy-btrigger,,2,
+percentage-in-fmsy-range,Percentage in FMSY range,percentage-in-fmsy-range,,3,
+percentage-less-than-msy-btrigger-but-greater-than-blim,Percentage less than MSY Btrigger but greater than Blim,percentage-less-than-msy-btrigger-but-greater-than-blim,,4,
+percentage-less-than-or-equal-to-fmsy,Percentage less than or equal to FMSY,percentage-less-than-or-equal-to-fmsy,,5,
+percentage-unknown,Percentage unknown,percentage-unknown,,6,
