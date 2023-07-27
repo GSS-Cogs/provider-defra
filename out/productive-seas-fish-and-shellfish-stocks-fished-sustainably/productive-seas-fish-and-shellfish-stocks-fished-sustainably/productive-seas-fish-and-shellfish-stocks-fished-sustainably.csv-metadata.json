@@ -90,12 +90,221 @@
     ],
     "rdfs:seeAlso": [
         {
-            "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#measure/proportion-of-fish-stocks-with-biomass-with-respect-to-msy-btrigger-and-blim",
+            "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#component/category",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#dimension/category"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#dimension/category"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 2
+                }
+            ]
+        },
+        {
+            "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#component/unit",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": true
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 6
+                }
+            ]
+        },
+        {
+            "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#dimension/category",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "category.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Category"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#class/category"
+                }
+            ]
+        },
+        {
+            "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#component/year",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#dimension/year"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#dimension/year"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 1
+                }
+            ]
+        },
+        {
+            "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#dimension/year",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "year.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Year"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#class/year"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
+                }
+            ]
+        },
+        {
+            "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#component/proportion-of-fish-stocks-with-biomass-with-respect-to-msy-btrigger-and-blim",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#measure/proportion-of-fish-stocks-with-biomass-with-respect-to-msy-btrigger-and-blim"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#measure/proportion-of-fish-stocks-with-biomass-with-respect-to-msy-btrigger-and-blim"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 4
+                }
+            ]
+        },
+        {
+            "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#class/year",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#structure",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DataStructureDefinition",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#component": [
+                {
+                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#component/measure-type"
+                },
+                {
+                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#component/unit"
+                },
+                {
+                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#component/year"
+                },
+                {
+                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#component/category"
+                },
+                {
+                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#component/proportion-of-fish-stocks-with-biomass-with-respect-to-msy-btrigger-and-blim"
+                },
+                {
+                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#component/proportion-of-fish-stocks-exploited-with-respect-to-fmsy"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#measure/proportion-of-fish-stocks-with-biomass-with-respect-to-msy-btrigger-and-blim"
+                },
+                {
+                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#measure/proportion-of-fish-stocks-exploited-with-respect-to-fmsy"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#dimension/category"
+                },
+                {
+                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#dimension/year"
+                }
+            ]
+        },
+        {
+            "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#measure/proportion-of-fish-stocks-with-biomass-with-respect-to-msy-btrigger-and-blim",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#MeasureProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
@@ -115,36 +324,103 @@
             ]
         },
         {
-            "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#component/category",
+            "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#class/category",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#csvcubed-build-activity",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/prov#Activity"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.7"
+                }
+            ]
+        },
+        {
+            "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#measure/proportion-of-fish-stocks-exploited-with-respect-to-fmsy",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#MeasureProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Proportion of fish stocks exploited with respect to FMSY"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#portion"
+                }
+            ]
+        },
+        {
+            "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#component/measure-type",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#dimension/category"
+                    "@id": "http://purl.org/linked-data/cube#measureType"
                 }
             ],
             "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#dimension/category"
+                    "@id": "http://purl.org/linked-data/cube#measureType"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 2
+                    "@value": 5
+                }
+            ]
+        },
+        {
+            "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#component/proportion-of-fish-stocks-exploited-with-respect-to-fmsy",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#measure/proportion-of-fish-stocks-exploited-with-respect-to-fmsy"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#measure/proportion-of-fish-stocks-exploited-with-respect-to-fmsy"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 3
                 }
             ]
         },
         {
             "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#dataset",
             "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#Attachable",
-                "http://www.w3.org/ns/dcat#Dataset",
-                "http://purl.org/linked-data/cube#DataSet",
                 "http://www.w3.org/ns/dcat#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/ns/dcat#Dataset",
+                "http://purl.org/linked-data/cube#DataSet"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -154,7 +430,7 @@
             "http://purl.org/dc/terms/description": [
                 {
                     "@type": "https://www.w3.org/ns/iana/media-types/text/markdown#Resource",
-                    "@value": "This dataset tracks changes in the proportion of commercial fish and shellfish stocks that are within safe biological limits and\nfished sustainably. The indicator is derived from assessments of individual stocks. Where available, the assessment of stocks against their\nMaximum Sustainable Yield (MSY) will be incorporated into the overall indicator. The indicator is linked to UK Marine Strategy\nDescriptor 3 (Commercial Fish and Shellfish) and the Convention on Biological Diversity sustainable fisheries indicators and\nis derived from International Council for the Exploration of the Sea (ICES) and national stock assessments.  \nThis interim indicator shows the proportion of stocks of UK interest fished at or below the level capable of producing MSY (FMSY); and\nthe proportion of stocks with spawning stock biomass (SSB) above the level capable of producing MSY (MSY Btrigger).  \nThe assessments used for this interim indicator have been reported under the [UK Marine Strategy Part One (2019)] https://www.gov.uk/government/publications/marine-strategy-part-one-uk-updated-assessment-and-good-environmental-status)\nusing data from 1990 to 2015 for FMSY and from 1990 to 2016 for MSY Btrigger.\nData on [commercially exploited fish and shellfish] (https://moat.cefas.co.uk/pressures-from-human-activities/commercial-fish-and-shellfish),\nanalytical methods and assessment are available. Data are also published annually in the [UK Biodiversity Indicator B2 - Sustainable fisheries] (https://jncc.gov.uk/our-work/ukbi-b2-sustainable-fisheries)."
+                    "@value": "This dataset tracks changes in the proportion of commercial fish and shellfish stocks that are within safe biological limits and\nfished sustainably. The indicator is derived from assessments of individual stocks. Where available, the assessment of stocks against their\nMaximum Sustainable Yield (MSY) will be incorporated into the overall indicator. The indicator is linked to UK Marine Strategy\nDescriptor 3 (Commercial Fish and Shellfish) and the Convention on Biological Diversity sustainable fisheries indicators and\nis derived from International Council for the Exploration of the Sea (ICES) and national stock assessments.  \nThis interim indicator shows the proportion of stocks of UK interest fished at or below the level capable of producing MSY (FMSY); and\nthe proportion of stocks with spawning stock biomass (SSB) above the level capable of producing MSY (MSY Btrigger).  \nThe assessments used for this interim indicator have been reported under the [UK Marine Strategy Part One (2019)](https://www.gov.uk/government/publications/marine-strategy-part-one-uk-updated-assessment-and-good-environmental-status)\nusing data from 1990 to 2015 for FMSY and from 1990 to 2016 for MSY Btrigger.\nData on [commercially exploited fish and shellfish](https://moat.cefas.co.uk/pressures-from-human-activities/commercial-fish-and-shellfish),\nanalytical methods and assessment are available. Data are also published annually in the [UK Biodiversity Indicator B2 - Sustainable fisheries](https://jncc.gov.uk/our-work/ukbi-b2-sustainable-fisheries)."
                 }
             ],
             "http://purl.org/dc/terms/identifier": [
@@ -210,7 +486,7 @@
             "http://www.w3.org/ns/dcat#keyword": [
                 {
                     "@language": "en",
-                    "@value": "commercial-fish"
+                    "@value": "fished-sustainably"
                 },
                 {
                     "@language": "en",
@@ -222,11 +498,11 @@
                 },
                 {
                     "@language": "en",
-                    "@value": "fish"
+                    "@value": "commercial-fish"
                 },
                 {
                     "@language": "en",
-                    "@value": "fished-sustainably"
+                    "@value": "fish"
                 }
             ],
             "http://www.w3.org/ns/dcat#theme": [
@@ -241,286 +517,10 @@
             ]
         },
         {
-            "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#class/year",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Class",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ]
-        },
-        {
-            "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#dimension/category",
-            "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "category.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Category"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#class/category"
-                }
-            ]
-        },
-        {
-            "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#structure",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#DataStructureDefinition",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#component": [
-                {
-                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#component/year"
-                },
-                {
-                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#component/measure-type"
-                },
-                {
-                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#component/proportion-of-fish-stocks-with-biomass-with-respect-to-msy-btrigger-and-blim"
-                },
-                {
-                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#component/unit"
-                },
-                {
-                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#component/category"
-                },
-                {
-                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#component/proportion-of-fish-stocks-exploited-with-respect-to-fmsy"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#measure/proportion-of-fish-stocks-exploited-with-respect-to-fmsy"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                },
-                {
-                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#measure/proportion-of-fish-stocks-with-biomass-with-respect-to-msy-btrigger-and-blim"
-                },
-                {
-                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#dimension/year"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
-                {
-                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#dimension/category"
-                }
-            ]
-        },
-        {
-            "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#component/unit",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": true
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 6
-                }
-            ]
-        },
-        {
-            "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#component/year",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#dimension/year"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#dimension/year"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 1
-                }
-            ]
-        },
-        {
-            "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#dimension/year",
-            "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "year.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Year"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#class/year"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
-                }
-            ]
-        },
-        {
-            "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#class/category",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Class",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ]
-        },
-        {
-            "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#component/proportion-of-fish-stocks-exploited-with-respect-to-fmsy",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#measure/proportion-of-fish-stocks-exploited-with-respect-to-fmsy"
-                }
-            ],
-            "http://purl.org/linked-data/cube#measure": [
-                {
-                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#measure/proportion-of-fish-stocks-exploited-with-respect-to-fmsy"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 3
-                }
-            ]
-        },
-        {
-            "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#measure/proportion-of-fish-stocks-exploited-with-respect-to-fmsy",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#MeasureProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Proportion of fish stocks exploited with respect to FMSY"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "https://purl.org/csv-cubed/resources/measures#portion"
-                }
-            ]
-        },
-        {
-            "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#component/measure-type",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 5
-                }
-            ]
-        },
-        {
-            "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#csvcubed-build-activity",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/ns/prov#Activity"
-            ],
-            "http://www.w3.org/ns/prov#used": [
-                {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.6"
-                }
-            ]
-        },
-        {
-            "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#component/proportion-of-fish-stocks-with-biomass-with-respect-to-msy-btrigger-and-blim",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#measure/proportion-of-fish-stocks-with-biomass-with-respect-to-msy-btrigger-and-blim"
-                }
-            ],
-            "http://purl.org/linked-data/cube#measure": [
-                {
-                    "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#measure/proportion-of-fish-stocks-with-biomass-with-respect-to-msy-btrigger-and-blim"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 4
-                }
-            ]
-        },
-        {
             "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#dependency/year",
             "@type": [
-                "http://rdfs.org/ns/void#Dataset",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -536,8 +536,8 @@
         {
             "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#dependency/category",
             "@type": [
-                "http://rdfs.org/ns/void#Dataset",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -553,9 +553,9 @@
         {
             "@id": "productive-seas-fish-and-shellfish-stocks-fished-sustainably.csv#unit/percent",
             "@type": [
-                "http://qudt.org/schema/qudt/Unit",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://qudt.org/schema/qudt/Unit"
             ],
             "http://qudt.org/schema/qudt/isScalingOf": [
                 {

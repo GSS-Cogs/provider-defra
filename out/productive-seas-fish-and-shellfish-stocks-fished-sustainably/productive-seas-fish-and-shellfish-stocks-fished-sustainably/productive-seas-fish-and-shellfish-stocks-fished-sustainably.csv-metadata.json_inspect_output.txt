@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/economy/environmentalaccounts
           - Keywords: 
-		-- fished-sustainably
-		-- fish
 		-- marine-fish
-		-- shellfish-stocks
+		-- fished-sustainably
 		-- commercial-fish
+		-- shellfish-stocks
+		-- fish
           - Contact Point: None
           - Identifier: Productive seas fish and shellfish stocks fished sustainably
           - Comment: Proportion of commercial fish and shellfish stocks that are within safe biological limits and fished sustainably
@@ -29,10 +29,10 @@
 		is derived from International Council for the Exploration of the Sea (ICES) and national stock assessments.  
 		This interim indicator shows the proportion of stocks of UK interest fished at or below the level capable of producing MSY (FMSY); and
 		the proportion of stocks with spawning stock biomass (SSB) above the level capable of producing MSY (MSY Btrigger).  
-		The assessments used for this interim indicator have been reported under the [UK Marine Strategy Part One (2019)] https://www.gov.uk/government/publications/marine-strategy-part-one-uk-updated-assessment-and-good-environmental-status)
+		The assessments used for this interim indicator have been reported under the [UK Marine Strategy Part One (2019)](https://www.gov.uk/government/publications/marine-strategy-part-one-uk-updated-assessment-and-good-environmental-status)
 		using data from 1990 to 2015 for FMSY and from 1990 to 2016 for MSY Btrigger.
-		Data on [commercially exploited fish and shellfish] (https://moat.cefas.co.uk/pressures-from-human-activities/commercial-fish-and-shellfish),
-		analytical methods and assessment are available. Data are also published annually in the [UK Biodiversity Indicator B2 - Sustainable fisheries] (https://jncc.gov.uk/our-work/ukbi-b2-sustainable-fisheries).
+		Data on [commercially exploited fish and shellfish](https://moat.cefas.co.uk/pressures-from-human-activities/commercial-fish-and-shellfish),
+		analytical methods and assessment are available. Data are also published annually in the [UK Biodiversity Indicator B2 - Sustainable fisheries](https://jncc.gov.uk/our-work/ukbi-b2-sustainable-fisheries).
         
 
  - The data cube has the following column component information: 
