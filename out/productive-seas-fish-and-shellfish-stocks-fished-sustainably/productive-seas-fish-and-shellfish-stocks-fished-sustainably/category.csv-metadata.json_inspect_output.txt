@@ -1,0 +1,48 @@
+
+- This file is a code list.
+
+
+        - The code list has the following catalog metadata:
+          - Title: Category
+          - Label: Category
+          - Issued: 2023-07-27T08:41:05.477437
+          - Modified: 2023-07-27T08:41:05.477437
+          - License: None
+          - Creator: None
+          - Publisher: None
+          - Landing Pages: None
+          - Themes: None
+          - Keywords: None
+          - Contact Point: None
+          - Identifier: Category
+          - Comment: None
+          - Description: None
+        
+
+- The code list has the following dataset information:
+        - Number of Concepts: 7
+        - Number of Duplicates: 0
+        - Concepts: 
+                                             Uri Identifier                                                         Label                                                    Notation  Parent Uri Identifier  Sort Priority  Description
+                                      percentage-above-fmsy                                         Percentage above FMSY                                       percentage-above-fmsy                    NaN              0          NaN
+percentage-below-msybtrigger-and-below-blim-where-available Percentage below MSYBtrigger and below Blim (where available) percentage-below-msybtrigger-and-below-blim-where-available                    NaN              1          NaN
+           percentage-greater-than-or-equal-to-msy-btrigger              Percentage greater than or equal to MSY Btrigger            percentage-greater-than-or-equal-to-msy-btrigger                    NaN              2          NaN
+                                   percentage-in-fmsy-range                                      Percentage in FMSY range                                    percentage-in-fmsy-range                    NaN              3          NaN
+    percentage-less-than-msy-btrigger-but-greater-than-blim       Percentage less than MSY Btrigger but greater than Blim     percentage-less-than-msy-btrigger-but-greater-than-blim                    NaN              4          NaN
+                      percentage-less-than-or-equal-to-fmsy                         Percentage less than or equal to FMSY                       percentage-less-than-or-equal-to-fmsy                    NaN              5          NaN
+                                         percentage-unknown                                            Percentage unknown                                          percentage-unknown                    NaN              6          NaN
+        
+
+- The code list has the following concepts information:
+        - Concepts hierarchy depth: 1
+        - Concepts hierarchy:
+root
+├── Percentage above FMSY
+├── Percentage below MSYBtrigger and below Blim (where available)
+├── Percentage greater than or equal to MSY Btrigger
+├── Percentage in FMSY range
+├── Percentage less than MSY Btrigger but greater than Blim
+├── Percentage less than or equal to FMSY
+└── Percentage unknown
+
+        
