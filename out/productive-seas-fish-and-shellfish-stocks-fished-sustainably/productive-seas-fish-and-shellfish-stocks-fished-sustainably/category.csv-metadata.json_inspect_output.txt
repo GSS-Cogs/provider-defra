@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: Category
           - Label: Category
-          - Issued: 2023-07-27T08:41:05.477437
-          - Modified: 2023-07-27T08:41:05.477437
+          - Issued: 2023-07-27T10:46:46.604143
+          - Modified: 2023-07-27T10:46:46.604143
           - License: None
           - Creator: None
           - Publisher: None
